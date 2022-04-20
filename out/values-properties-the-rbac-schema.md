@@ -32,9 +32,9 @@ The default value is:
 
 # rbac Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                    |
-| :---------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [create](#create) | `boolean` | Optional | cannot be null | [The root schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create") |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                |
+| :---------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [create](#create) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create") |
 
 ## create
 
@@ -48,7 +48,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create")
 
 ### create Type
 

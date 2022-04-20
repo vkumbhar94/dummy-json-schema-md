@@ -32,9 +32,9 @@ The default value is:
 
 # serviceAccount Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                  |
-| :---------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [create](#create) | `boolean` | Optional | cannot be null | [The root schema](values-properties-the-serviceaccount-schema-properties-the-create-schema.md "#/properties/serviceAccount/properties/create#/properties/serviceAccount/properties/create") |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                              |
+| :---------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [create](#create) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-serviceaccount-schema-properties-the-create-schema.md "#/properties/serviceAccount/properties/create#/properties/serviceAccount/properties/create") |
 
 ## create
 
@@ -48,7 +48,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-serviceaccount-schema-properties-the-create-schema.md "#/properties/serviceAccount/properties/create#/properties/serviceAccount/properties/create")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-serviceaccount-schema-properties-the-create-schema.md "#/properties/serviceAccount/properties/create#/properties/serviceAccount/properties/create")
 
 ### create Type
 

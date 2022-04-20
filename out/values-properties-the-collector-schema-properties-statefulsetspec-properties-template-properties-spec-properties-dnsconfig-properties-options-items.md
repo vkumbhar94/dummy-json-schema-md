@@ -1,4 +1,4 @@
-# Untitled object in The root schema Schema
+# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items
@@ -16,10 +16,10 @@ PodDNSConfigOption defines DNS resolver options of a pod.
 
 # items Properties
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| :-------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [name](#name)   | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/name")   |
-| [value](#value) | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-value.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/value") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| :-------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)   | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/name")   |
+| [value](#value) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-value.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/value") |
 
 ## name
 
@@ -33,7 +33,7 @@ Required.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/name")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/name")
 
 ### name Type
 
@@ -51,7 +51,7 @@ Required.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-value.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/value")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options-items-properties-value.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options/items/properties/value")
 
 ### value Type
 

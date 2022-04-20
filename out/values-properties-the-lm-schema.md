@@ -52,11 +52,11 @@ The default value is:
 
 # lm Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
-| :------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [lmlogs](#lmlogs)               | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema.md "#/properties/lm/properties/lmlogs#/properties/lm/properties/lmlogs")                      |
-| [resource](#resource)           | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resource-schema.md "#/properties/lm/properties/resource#/properties/lm/properties/resource")                |
-| [resourceGroup](#resourcegroup) | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema.md "#/properties/lm/properties/resourceGroup#/properties/lm/properties/resourceGroup") |
+| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                               |
+| :------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [lmlogs](#lmlogs)               | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema.md "#/properties/lm/properties/lmlogs#/properties/lm/properties/lmlogs")                      |
+| [resource](#resource)           | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema.md "#/properties/lm/properties/resource#/properties/lm/properties/resource")                |
+| [resourceGroup](#resourcegroup) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema.md "#/properties/lm/properties/resourceGroup#/properties/lm/properties/resourceGroup") |
 
 ## lmlogs
 
@@ -70,7 +70,7 @@ Logicmonitor Logs collection settings
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema.md "#/properties/lm/properties/lmlogs#/properties/lm/properties/lmlogs")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema.md "#/properties/lm/properties/lmlogs#/properties/lm/properties/lmlogs")
 
 ### lmlogs Type
 
@@ -109,7 +109,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resource-schema.md "#/properties/lm/properties/resource#/properties/lm/properties/resource")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema.md "#/properties/lm/properties/resource#/properties/lm/properties/resource")
 
 ### resource Type
 
@@ -146,7 +146,7 @@ Resource Group Settings
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema.md "#/properties/lm/properties/resourceGroup#/properties/lm/properties/resourceGroup")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema.md "#/properties/lm/properties/resourceGroup#/properties/lm/properties/resourceGroup")
 
 ### resourceGroup Type
 

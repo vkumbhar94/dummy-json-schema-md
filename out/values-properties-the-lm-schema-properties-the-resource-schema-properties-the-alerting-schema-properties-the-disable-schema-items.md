@@ -1,4 +1,4 @@
-# Untitled string in The root schema Schema
+# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/lm/properties/resource/properties/alerting/properties/disable/items#/properties/lm/properties/resource/properties/alerting/properties/disable/items

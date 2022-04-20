@@ -60,18 +60,18 @@ The default value is:
 
 # collector Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                   |
-| :---------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [replicas](#replicas)               | `integer` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-replicas-schema.md "#/properties/collector/properties/replicas#/properties/collector/properties/replicas")           |
-| [version](#version)                 | `integer` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-version-schema.md "#/properties/collector/properties/version#/properties/collector/properties/version")              |
-| [size](#size)                       | `string`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-size-schema.md "#/properties/collector/properties/size#/properties/collector/properties/size")                       |
-| [useEA](#useea)                     | `boolean` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-useea-schema.md "#/properties/collector/properties/useEA#/properties/collector/properties/useEA")                    |
-| [lm](#lm)                           | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-lm-schema.md "#/properties/collector/properties/lm#/properties/collector/properties/lm")                             |
-| [image](#image)                     | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-image-schema.md "#/properties/collector/properties/image#/properties/collector/properties/image")                    |
-| [proxy](#proxy)                     | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema.md "#/properties/collector/properties/proxy#/properties/collector/properties/proxy")                    |
-| [annotations](#annotations)         | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-annotations-schema.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations")  |
-| [labels](#labels)                   | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-labels-schema.md "#/properties/collector/properties/labels#/properties/collector/properties/labels")                 |
-| [statefulsetSpec](#statefulsetspec) | `object`  | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-statefulsetspec.md "#/properties/collector/properties/statefulsetspec#/properties/collector/properties/statefulsetSpec") |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :---------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [replicas](#replicas)               | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-replicas-schema.md "#/properties/collector/properties/replicas#/properties/collector/properties/replicas")           |
+| [version](#version)                 | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-version-schema.md "#/properties/collector/properties/version#/properties/collector/properties/version")              |
+| [size](#size)                       | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-size-schema.md "#/properties/collector/properties/size#/properties/collector/properties/size")                       |
+| [useEA](#useea)                     | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-useea-schema.md "#/properties/collector/properties/useEA#/properties/collector/properties/useEA")                    |
+| [lm](#lm)                           | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema.md "#/properties/collector/properties/lm#/properties/collector/properties/lm")                             |
+| [image](#image)                     | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema.md "#/properties/collector/properties/image#/properties/collector/properties/image")                    |
+| [proxy](#proxy)                     | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema.md "#/properties/collector/properties/proxy#/properties/collector/properties/proxy")                    |
+| [annotations](#annotations)         | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-annotations-schema.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations")  |
+| [labels](#labels)                   | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-labels-schema.md "#/properties/collector/properties/labels#/properties/collector/properties/labels")                 |
+| [statefulsetSpec](#statefulsetspec) | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec.md "#/properties/collector/properties/statefulsetspec#/properties/collector/properties/statefulsetSpec") |
 
 ## replicas
 
@@ -85,7 +85,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-replicas-schema.md "#/properties/collector/properties/replicas#/properties/collector/properties/replicas")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-replicas-schema.md "#/properties/collector/properties/replicas#/properties/collector/properties/replicas")
 
 ### replicas Type
 
@@ -121,7 +121,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-version-schema.md "#/properties/collector/properties/version#/properties/collector/properties/version")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-version-schema.md "#/properties/collector/properties/version#/properties/collector/properties/version")
 
 ### version Type
 
@@ -145,7 +145,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-size-schema.md "#/properties/collector/properties/size#/properties/collector/properties/size")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-size-schema.md "#/properties/collector/properties/size#/properties/collector/properties/size")
 
 ### size Type
 
@@ -182,7 +182,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-useea-schema.md "#/properties/collector/properties/useEA#/properties/collector/properties/useEA")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-useea-schema.md "#/properties/collector/properties/useEA#/properties/collector/properties/useEA")
 
 ### useEA Type
 
@@ -206,7 +206,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-lm-schema.md "#/properties/collector/properties/lm#/properties/collector/properties/lm")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema.md "#/properties/collector/properties/lm#/properties/collector/properties/lm")
 
 ### lm Type
 
@@ -241,7 +241,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-image-schema.md "#/properties/collector/properties/image#/properties/collector/properties/image")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema.md "#/properties/collector/properties/image#/properties/collector/properties/image")
 
 ### image Type
 
@@ -278,7 +278,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema.md "#/properties/collector/properties/proxy#/properties/collector/properties/proxy")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema.md "#/properties/collector/properties/proxy#/properties/collector/properties/proxy")
 
 ### proxy Type
 
@@ -314,7 +314,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-annotations-schema.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-annotations-schema.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations")
 
 ### annotations Type
 
@@ -346,7 +346,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-labels-schema.md "#/properties/collector/properties/labels#/properties/collector/properties/labels")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-labels-schema.md "#/properties/collector/properties/labels#/properties/collector/properties/labels")
 
 ### labels Type
 
@@ -378,7 +378,7 @@ The collector StatefulSet specification for customizations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-statefulsetspec.md "#/properties/collector/properties/statefulsetspec#/properties/collector/properties/statefulsetSpec")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec.md "#/properties/collector/properties/statefulsetspec#/properties/collector/properties/statefulsetSpec")
 
 ### statefulsetSpec Type
 

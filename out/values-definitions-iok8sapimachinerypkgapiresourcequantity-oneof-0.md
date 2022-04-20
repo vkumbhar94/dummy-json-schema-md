@@ -1,7 +1,7 @@
-# Untitled string in The root schema Schema
+# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity/oneOf/0
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity/oneOf/0
 ```
 
 

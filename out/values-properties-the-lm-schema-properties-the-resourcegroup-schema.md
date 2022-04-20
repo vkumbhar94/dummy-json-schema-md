@@ -36,9 +36,9 @@ The default value is:
 
 # resourceGroup Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                |
-| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [extraProps](#extraprops) | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                            |
+| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [extraProps](#extraprops) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps") |
 
 ## extraProps
 
@@ -52,7 +52,7 @@ Extra Properties to add upon resource groups, only cluster scoped resources are 
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps")
 
 ### extraProps Type
 

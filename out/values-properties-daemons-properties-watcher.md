@@ -37,11 +37,11 @@ The default value is:
 
 # watcher Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                            |
-| :-------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bulkSyncInterval](#bulksyncinterval)   | `string` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-watcher-properties-bulksyncinterval.md "#/properties/daemons/properties/watcher/properties/bulkSyncInterval#/properties/daemons/properties/watcher/properties/bulkSyncInterval")               |
-| [runner](#runner)                       | `object` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-watcher-properties-the-runner-schema.md "#/properties/daemons/properties/watcher/properties/runner#/properties/daemons/properties/watcher/properties/runner")                                  |
-| [sysIpsWaitTimeout](#sysipswaittimeout) | `string` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-watcher-properties-the-sysipswaittimeout-schema.md "#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                        |
+| :-------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bulkSyncInterval](#bulksyncinterval)   | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-bulksyncinterval.md "#/properties/daemons/properties/watcher/properties/bulkSyncInterval#/properties/daemons/properties/watcher/properties/bulkSyncInterval")               |
+| [runner](#runner)                       | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-the-runner-schema.md "#/properties/daemons/properties/watcher/properties/runner#/properties/daemons/properties/watcher/properties/runner")                                  |
+| [sysIpsWaitTimeout](#sysipswaittimeout) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-the-sysipswaittimeout-schema.md "#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout") |
 
 ## bulkSyncInterval
 
@@ -55,7 +55,7 @@ Execution run interval
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-watcher-properties-bulksyncinterval.md "#/properties/daemons/properties/watcher/properties/bulkSyncInterval#/properties/daemons/properties/watcher/properties/bulkSyncInterval")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-bulksyncinterval.md "#/properties/daemons/properties/watcher/properties/bulkSyncInterval#/properties/daemons/properties/watcher/properties/bulkSyncInterval")
 
 ### bulkSyncInterval Type
 
@@ -97,7 +97,7 @@ configurations for parallel runners to process watcher events
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-watcher-properties-the-runner-schema.md "#/properties/daemons/properties/watcher/properties/runner#/properties/daemons/properties/watcher/properties/runner")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-the-runner-schema.md "#/properties/daemons/properties/watcher/properties/runner#/properties/daemons/properties/watcher/properties/runner")
 
 ### runner Type
 
@@ -132,7 +132,7 @@ in case of IP update, need to wait till Logicmonitor portal copies system.hostna
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-watcher-properties-the-sysipswaittimeout-schema.md "#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher-properties-the-sysipswaittimeout-schema.md "#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout#/properties/daemons/properties/watcher/properties/sysIpsWaitTimeout")
 
 ### sysIpsWaitTimeout Type
 

@@ -1,7 +1,7 @@
-# Untitled object in The root schema Schema
+# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/toleration/oneOf/0
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0
 ```
 
 
@@ -16,13 +16,13 @@ http://example.com/example.json#/definitions/toleration/oneOf/0
 
 # 0 Properties
 
-| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                              |
-| :-------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [effect](#effect)                       | `string`  | Optional | cannot be null | [The root schema](values-definitions-toleration-oneof-0-properties-effect.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/effect")                       |
-| [key](#key)                             | `string`  | Optional | cannot be null | [The root schema](values-definitions-toleration-oneof-0-properties-key.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/key")                             |
-| [operator](#operator)                   | `string`  | Optional | cannot be null | [The root schema](values-definitions-toleration-oneof-0-properties-operator.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/operator")                   |
-| [tolerationSeconds](#tolerationseconds) | `integer` | Optional | cannot be null | [The root schema](values-definitions-toleration-oneof-0-properties-tolerationseconds.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds") |
-| [value](#value)                         | `string`  | Optional | cannot be null | [The root schema](values-definitions-toleration-oneof-0-properties-value.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/value")                         |
+| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                       |
+| :-------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [effect](#effect)                       | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-effect.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/effect")                       |
+| [key](#key)                             | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-key.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/key")                             |
+| [operator](#operator)                   | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-operator.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/operator")                   |
+| [tolerationSeconds](#tolerationseconds) | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-tolerationseconds.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds") |
+| [value](#value)                         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/value")                         |
 
 ## effect
 
@@ -36,7 +36,7 @@ Effect indicates the taint effect to match. Empty means match all taint effects.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-definitions-toleration-oneof-0-properties-effect.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/effect")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-effect.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/effect")
 
 ### effect Type
 
@@ -54,7 +54,7 @@ Key is the taint key that the toleration applies to. Empty means match all taint
 
 *   cannot be null
 
-*   defined in: [The root schema](values-definitions-toleration-oneof-0-properties-key.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/key")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-key.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/key")
 
 ### key Type
 
@@ -72,7 +72,7 @@ Operator represents a key's relationship to the value. Valid operators are Exist
 
 *   cannot be null
 
-*   defined in: [The root schema](values-definitions-toleration-oneof-0-properties-operator.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/operator")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-operator.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/operator")
 
 ### operator Type
 
@@ -98,7 +98,7 @@ TolerationSeconds represents the period of time the toleration (which must be of
 
 *   cannot be null
 
-*   defined in: [The root schema](values-definitions-toleration-oneof-0-properties-tolerationseconds.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-tolerationseconds.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds")
 
 ### tolerationSeconds Type
 
@@ -120,7 +120,7 @@ Value is the taint value the toleration matches to. If the operator is Exists, t
 
 *   cannot be null
 
-*   defined in: [The root schema](values-definitions-toleration-oneof-0-properties-value.md "http://example.com/example.json#/definitions/toleration/oneOf/0/properties/value")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/value")
 
 ### value Type
 

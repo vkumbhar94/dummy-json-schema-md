@@ -1,7 +1,7 @@
-# Untitled array in The root schema Schema
+# Untitled array in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/propoptsarray
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propoptsarray
 ```
 
 

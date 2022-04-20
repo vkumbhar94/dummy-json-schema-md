@@ -48,12 +48,12 @@ The default value is:
 
 # daemons Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                        |
-| :-------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [lmResourceSweeper](#lmresourcesweeper) | `object` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-lmresourcesweeper.md "#/properties/daemons/properties/lmResourceSweeper#/properties/daemons/properties/lmResourceSweeper") |
-| [lmCacheSync](#lmcachesync)             | `object` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-lmcachesync.md "#/properties/daemons/properties/lmCacheSync#/properties/daemons/properties/lmCacheSync")                   |
-| [worker](#worker)                       | `object` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-worker.md "#/properties/daemons/properties/worker#/properties/daemons/properties/worker")                                  |
-| [watcher](#watcher)                     | `object` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-watcher.md "#/properties/daemons/properties/watcher#/properties/daemons/properties/watcher")                               |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                    |
+| :-------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [lmResourceSweeper](#lmresourcesweeper) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmresourcesweeper.md "#/properties/daemons/properties/lmResourceSweeper#/properties/daemons/properties/lmResourceSweeper") |
+| [lmCacheSync](#lmcachesync)             | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmcachesync.md "#/properties/daemons/properties/lmCacheSync#/properties/daemons/properties/lmCacheSync")                   |
+| [worker](#worker)                       | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-worker.md "#/properties/daemons/properties/worker#/properties/daemons/properties/worker")                                  |
+| [watcher](#watcher)                     | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher.md "#/properties/daemons/properties/watcher#/properties/daemons/properties/watcher")                               |
 
 ## lmResourceSweeper
 
@@ -67,7 +67,7 @@ LM Resource sweeper configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-lmresourcesweeper.md "#/properties/daemons/properties/lmResourceSweeper#/properties/daemons/properties/lmResourceSweeper")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmresourcesweeper.md "#/properties/daemons/properties/lmResourceSweeper#/properties/daemons/properties/lmResourceSweeper")
 
 ### lmResourceSweeper Type
 
@@ -101,7 +101,7 @@ Cache Sync using LM resources configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-lmcachesync.md "#/properties/daemons/properties/lmCacheSync#/properties/daemons/properties/lmCacheSync")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmcachesync.md "#/properties/daemons/properties/lmCacheSync#/properties/daemons/properties/lmCacheSync")
 
 ### lmCacheSync Type
 
@@ -135,7 +135,7 @@ Worker configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-worker.md "#/properties/daemons/properties/worker#/properties/daemons/properties/worker")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-worker.md "#/properties/daemons/properties/worker#/properties/daemons/properties/worker")
 
 ### worker Type
 
@@ -169,7 +169,7 @@ Kubernetes watcher configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-watcher.md "#/properties/daemons/properties/watcher#/properties/daemons/properties/watcher")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-watcher.md "#/properties/daemons/properties/watcher#/properties/daemons/properties/watcher")
 
 ### watcher Type
 

@@ -32,10 +32,10 @@ The default value is:
 
 # image Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [registry](#registry)     | `string` | Optional | cannot be null | [The root schema](values-properties-global-properties-the-image-schema-properties-the-registry-schema.md "#/properties/global/properties/image/properties/registry#/properties/global/properties/image/properties/registry") |
-| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [The root schema](values-properties-global-properties-the-image-schema-properties-pullpolicy.md "#/properties/global/properties/image/properties/pullpolicy#/properties/global/properties/image/properties/pullPolicy")      |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
+| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [registry](#registry)     | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema-properties-the-registry-schema.md "#/properties/global/properties/image/properties/registry#/properties/global/properties/image/properties/registry") |
+| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema-properties-pullpolicy.md "#/properties/global/properties/image/properties/pullpolicy#/properties/global/properties/image/properties/pullPolicy")      |
 
 ## registry
 
@@ -49,7 +49,7 @@ Container Image Registry
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-global-properties-the-image-schema-properties-the-registry-schema.md "#/properties/global/properties/image/properties/registry#/properties/global/properties/image/properties/registry")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema-properties-the-registry-schema.md "#/properties/global/properties/image/properties/registry#/properties/global/properties/image/properties/registry")
 
 ### registry Type
 
@@ -77,7 +77,7 @@ Overrides the image tag whose default is the chart appVersion.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-global-properties-the-image-schema-properties-pullpolicy.md "#/properties/global/properties/image/properties/pullpolicy#/properties/global/properties/image/properties/pullPolicy")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema-properties-pullpolicy.md "#/properties/global/properties/image/properties/pullpolicy#/properties/global/properties/image/properties/pullPolicy")
 
 ### pullPolicy Type
 

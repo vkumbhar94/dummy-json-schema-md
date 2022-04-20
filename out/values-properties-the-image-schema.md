@@ -35,12 +35,12 @@ The default value is:
 
 # image Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [registry](#registry)     | `string` | Optional | cannot be null | [The root schema](values-properties-the-image-schema-properties-the-registry-schema.md "#/properties/image/properties/registry#/properties/image/properties/registry")       |
-| [repository](#repository) | `string` | Optional | cannot be null | [The root schema](values-properties-the-image-schema-properties-the-repository-schema.md "#/properties/image/properties/repository#/properties/image/properties/repository") |
-| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [The root schema](values-properties-the-image-schema-properties-pullpolicy.md "#/properties/image/properties/pullPolicy#/properties/image/properties/pullPolicy")            |
-| [tag](#tag)               | `string` | Optional | cannot be null | [The root schema](values-properties-the-image-schema-properties-the-tag-schema.md "#/properties/image/properties/tag#/properties/image/properties/tag")                      |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                               |
+| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [registry](#registry)     | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-registry-schema.md "#/properties/image/properties/registry#/properties/image/properties/registry")       |
+| [repository](#repository) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-repository-schema.md "#/properties/image/properties/repository#/properties/image/properties/repository") |
+| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-pullpolicy.md "#/properties/image/properties/pullPolicy#/properties/image/properties/pullPolicy")            |
+| [tag](#tag)               | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-tag-schema.md "#/properties/image/properties/tag#/properties/image/properties/tag")                      |
 
 ## registry
 
@@ -54,7 +54,7 @@ Container Image Registry
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-image-schema-properties-the-registry-schema.md "#/properties/image/properties/registry#/properties/image/properties/registry")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-registry-schema.md "#/properties/image/properties/registry#/properties/image/properties/registry")
 
 ### registry Type
 
@@ -82,7 +82,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-image-schema-properties-the-repository-schema.md "#/properties/image/properties/repository#/properties/image/properties/repository")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-repository-schema.md "#/properties/image/properties/repository#/properties/image/properties/repository")
 
 ### repository Type
 
@@ -118,7 +118,7 @@ Overrides the image tag whose default is the chart appVersion.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-image-schema-properties-pullpolicy.md "#/properties/image/properties/pullPolicy#/properties/image/properties/pullPolicy")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-pullpolicy.md "#/properties/image/properties/pullPolicy#/properties/image/properties/pullPolicy")
 
 ### pullPolicy Type
 
@@ -161,7 +161,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-image-schema-properties-the-tag-schema.md "#/properties/image/properties/tag#/properties/image/properties/tag")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema-properties-the-tag-schema.md "#/properties/image/properties/tag#/properties/image/properties/tag")
 
 ### tag Type
 

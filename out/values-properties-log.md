@@ -32,9 +32,9 @@ The default value is:
 
 # log Properties
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                           |
-| :-------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [level](#level) | `string` | Optional | cannot be null | [The root schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                       |
+| :-------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [level](#level) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level") |
 
 ## level
 
@@ -48,7 +48,7 @@ Log Level
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level")
 
 ### level Type
 

@@ -32,9 +32,9 @@ The default value is:
 
 # monitoring Properties
 
-| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                         |
-| :------------------ | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [disable](#disable) | `array` | Optional | cannot be null | [The root schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable") |
+| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                     |
+| :------------------ | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [disable](#disable) | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable") |
 
 ## disable
 
@@ -48,7 +48,7 @@ Set of resource names to disable monitoring for
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable")
 
 ### disable Type
 

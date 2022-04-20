@@ -1,4 +1,4 @@
-# Untitled integer in The root schema Schema
+# Untitled integer in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/defaultmode#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/configMap/properties/defaultMode

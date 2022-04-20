@@ -34,9 +34,9 @@ The default value is:
 
 # debug Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [profiling](#profiling) | `object` | Optional | cannot be null | [The root schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                            |
+| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [profiling](#profiling) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling") |
 
 ## profiling
 
@@ -50,7 +50,7 @@ Profile generation configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling")
 
 ### profiling Type
 

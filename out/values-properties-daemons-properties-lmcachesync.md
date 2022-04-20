@@ -32,9 +32,9 @@ The default value is:
 
 # lmCacheSync Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
-| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [interval](#interval) | `string` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-lmcachesync-properties-interval.md "#/properties/daemons/properties/lmCacheSync/properties/interval#/properties/daemons/properties/lmCacheSync/properties/interval") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                              |
+| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [interval](#interval) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmcachesync-properties-interval.md "#/properties/daemons/properties/lmCacheSync/properties/interval#/properties/daemons/properties/lmCacheSync/properties/interval") |
 
 ## interval
 
@@ -48,7 +48,7 @@ Execution run interval
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-lmcachesync-properties-interval.md "#/properties/daemons/properties/lmCacheSync/properties/interval#/properties/daemons/properties/lmCacheSync/properties/interval")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-lmcachesync-properties-interval.md "#/properties/daemons/properties/lmCacheSync/properties/interval#/properties/daemons/properties/lmCacheSync/properties/interval")
 
 ### interval Type
 

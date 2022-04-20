@@ -30,9 +30,9 @@ The default value is:
 
 # nodeSelector Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                          |
-| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Additional Properties | `string` | Optional | cannot be null | [The root schema](values-properties-nodeselector-additionalproperties.md "#/properties/nodeSelector#/properties/nodeSelector/additionalProperties") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                      |
+| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Additional Properties | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-nodeselector-additionalproperties.md "#/properties/nodeSelector#/properties/nodeSelector/additionalProperties") |
 
 ## Additional Properties
 
@@ -46,7 +46,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-nodeselector-additionalproperties.md "#/properties/nodeSelector#/properties/nodeSelector/additionalProperties")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-nodeselector-additionalproperties.md "#/properties/nodeSelector#/properties/nodeSelector/additionalProperties")
 
 ### additionalProperties Type
 

@@ -1,4 +1,4 @@
-# Untitled undefined type in The root schema Schema
+# Untitled undefined type in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/lm/properties/lmlogs/properties/k8spodlog#/properties/lm/properties/lmlogs/properties/k8spodlog/default

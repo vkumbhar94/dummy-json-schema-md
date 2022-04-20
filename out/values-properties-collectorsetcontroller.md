@@ -33,10 +33,10 @@ The default value is:
 
 # collectorsetcontroller Properties
 
-| Property            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                      |
-| :------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [address](#address) | `string`  | Optional | cannot be null | [The root schema](values-properties-collectorsetcontroller-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller/properties/address#/properties/collectorsetcontroller/properties/address") |
-| [port](#port)       | `integer` | Optional | cannot be null | [The root schema](values-properties-collectorsetcontroller-properties-port.md "#/properties/collectorsetcontroller/properties/port#/properties/collectorsetcontroller/properties/port")                         |
+| Property            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
+| :------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [address](#address) | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller/properties/address#/properties/collectorsetcontroller/properties/address") |
+| [port](#port)       | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller-properties-port.md "#/properties/collectorsetcontroller/properties/port#/properties/collectorsetcontroller/properties/port")                         |
 
 ## address
 
@@ -50,7 +50,7 @@ Collectorset-controller grpc service address
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-collectorsetcontroller-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller/properties/address#/properties/collectorsetcontroller/properties/address")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller/properties/address#/properties/collectorsetcontroller/properties/address")
 
 ### address Type
 
@@ -86,7 +86,7 @@ Port service exposes
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-collectorsetcontroller-properties-port.md "#/properties/collectorsetcontroller/properties/port#/properties/collectorsetcontroller/properties/port")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller-properties-port.md "#/properties/collectorsetcontroller/properties/port#/properties/collectorsetcontroller/properties/port")
 
 ### port Type
 

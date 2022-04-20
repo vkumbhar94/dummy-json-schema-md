@@ -30,9 +30,9 @@ The default value is:
 
 # annotations Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                            |
-| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Additional Properties | `string` | Optional | cannot be null | [The root schema](values-properties-extraannotations-additionalproperties.md "#/properties/annotations#/properties/annotations/additionalProperties") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                        |
+| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Additional Properties | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-extraannotations-additionalproperties.md "#/properties/annotations#/properties/annotations/additionalProperties") |
 
 ## Additional Properties
 
@@ -46,7 +46,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-extraannotations-additionalproperties.md "#/properties/annotations#/properties/annotations/additionalProperties")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-extraannotations-additionalproperties.md "#/properties/annotations#/properties/annotations/additionalProperties")
 
 ### additionalProperties Type
 

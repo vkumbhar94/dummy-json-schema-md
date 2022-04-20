@@ -1,4 +1,4 @@
-# Untitled object in The root schema Schema
+# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/resources/properties/requests#/properties/resources/properties/requests
@@ -16,9 +16,9 @@ Requests describes the minimum amount of compute resources required. If Requests
 
 # requests Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :-------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Additional Properties | Not specified | Optional | cannot be null | [The root schema](values-properties-the-resources-schema-properties-requests-additionalproperties.md "#/properties/resources/properties/requests#/properties/resources/properties/requests/additionalProperties") |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                    |
+| :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Additional Properties | Not specified | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-requests-additionalproperties.md "#/properties/resources/properties/requests#/properties/resources/properties/requests/additionalProperties") |
 
 ## Additional Properties
 
@@ -32,7 +32,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-resources-schema-properties-requests-additionalproperties.md "#/properties/resources/properties/requests#/properties/resources/properties/requests/additionalProperties")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-requests-additionalproperties.md "#/properties/resources/properties/requests#/properties/resources/properties/requests/additionalProperties")
 
 ### additionalProperties Type
 

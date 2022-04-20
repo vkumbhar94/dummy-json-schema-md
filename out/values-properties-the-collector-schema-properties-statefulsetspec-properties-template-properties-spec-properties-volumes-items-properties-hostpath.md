@@ -1,4 +1,4 @@
-# Untitled object in The root schema Schema
+# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath
@@ -16,10 +16,10 @@ Represents a host path mapped into a pod. Host path volumes do not support owner
 
 # hostPath Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| :------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [path](#path) | `string` | Required | cannot be null | [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-path.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/path#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/path") |
-| [type](#type) | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-type.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/type#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/type") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [path](#path) | `string` | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-path.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/path#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/path") |
+| [type](#type) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-type.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/type#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/type") |
 
 ## path
 
@@ -33,7 +33,7 @@ Path of the directory on the host. If the path is a symlink, it will follow the 
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-path.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/path#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/path")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-path.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/path#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/path")
 
 ### path Type
 
@@ -51,7 +51,7 @@ Type for HostPath Volume Defaults to "" More info: <https://kubernetes.io/docs/c
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-type.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/type#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/type")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes-items-properties-hostpath-properties-type.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/hostpath/properties/type#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/hostPath/properties/type")
 
 ### type Type
 

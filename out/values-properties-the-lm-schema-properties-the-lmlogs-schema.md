@@ -37,10 +37,10 @@ The default value is:
 
 # lmlogs Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
-| :---------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [k8sevent](#k8sevent)   | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8sevent-schema.md "#/properties/lm/properties/lmlogs/properties/k8sevent#/properties/lm/properties/lmlogs/properties/k8sevent")    |
-| [k8spodlog](#k8spodlog) | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog#/properties/lm/properties/lmlogs/properties/k8spodlog") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
+| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [k8sevent](#k8sevent)   | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8sevent-schema.md "#/properties/lm/properties/lmlogs/properties/k8sevent#/properties/lm/properties/lmlogs/properties/k8sevent")    |
+| [k8spodlog](#k8spodlog) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog#/properties/lm/properties/lmlogs/properties/k8spodlog") |
 
 ## k8sevent
 
@@ -54,7 +54,7 @@ Kubernetes Events collection configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8sevent-schema.md "#/properties/lm/properties/lmlogs/properties/k8sevent#/properties/lm/properties/lmlogs/properties/k8sevent")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8sevent-schema.md "#/properties/lm/properties/lmlogs/properties/k8sevent#/properties/lm/properties/lmlogs/properties/k8sevent")
 
 ### k8sevent Type
 
@@ -88,7 +88,7 @@ Kubernetes Pod Logs collection configurations
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog#/properties/lm/properties/lmlogs/properties/k8spodlog")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog#/properties/lm/properties/lmlogs/properties/k8spodlog")
 
 ### k8spodlog Type
 

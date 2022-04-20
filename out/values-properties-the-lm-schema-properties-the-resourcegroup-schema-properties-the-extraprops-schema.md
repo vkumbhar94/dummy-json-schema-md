@@ -34,12 +34,12 @@ The default value is:
 
 # extraProps Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                          |
-| :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [cluster](#cluster)   | `array`       | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-cluster-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster")                       |
-| [nodes](#nodes)       | `array`       | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-properties-to-apply-upon-node-resource-group.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes") |
-| [etcd](#etcd)         | `array`       | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-etcd-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd")                                |
-| Additional Properties | Not specified | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-additionalproperties.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps/additionalProperties")                                                 |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                      |
+| :-------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [cluster](#cluster)   | `array`       | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-cluster-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster")                       |
+| [nodes](#nodes)       | `array`       | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-properties-to-apply-upon-node-resource-group.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes") |
+| [etcd](#etcd)         | `array`       | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-etcd-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd")                                |
+| Additional Properties | Not specified | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-additionalproperties.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps/additionalProperties")                                                 |
 
 ## cluster
 
@@ -53,7 +53,7 @@ Properties to apply upon cluster tree root group
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-cluster-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-cluster-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster#/properties/lm/properties/resourceGroup/properties/extraProps/properties/cluster")
 
 ### cluster Type
 
@@ -85,7 +85,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-properties-to-apply-upon-node-resource-group.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-properties-to-apply-upon-node-resource-group.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes#/properties/lm/properties/resourceGroup/properties/extraProps/properties/nodes")
 
 ### nodes Type
 
@@ -117,7 +117,7 @@ Properties to apply upon etcd resource group
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-etcd-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-properties-the-etcd-schema.md "#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd#/properties/lm/properties/resourceGroup/properties/extraProps/properties/etcd")
 
 ### etcd Type
 
@@ -149,7 +149,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-additionalproperties.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps/additionalProperties")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resourcegroup-schema-properties-the-extraprops-schema-additionalproperties.md "#/properties/lm/properties/resourceGroup/properties/extraProps#/properties/lm/properties/resourceGroup/properties/extraProps/additionalProperties")
 
 ### additionalProperties Type
 

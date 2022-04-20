@@ -32,9 +32,9 @@ The default value is:
 
 # k8spodlog Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                         |
-| :---------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [enable](#enable) | `boolean` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema-properties-the-enable-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable") |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                     |
+| :---------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [enable](#enable) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema-properties-the-enable-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable") |
 
 ## enable
 
@@ -48,7 +48,7 @@ Setting this to true starts kuberentes pod's logs collection
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema-properties-the-enable-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-lmlogs-schema-properties-the-k8spodlog-schema-properties-the-enable-schema.md "#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable#/properties/lm/properties/lmlogs/properties/k8spodlog/properties/enable")
 
 ### enable Type
 

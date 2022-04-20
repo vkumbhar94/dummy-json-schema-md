@@ -41,10 +41,10 @@ The default value is:
 
 # resources Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                              |
-| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [limits](#limits)     | `object` | Optional | cannot be null | [The root schema](values-properties-the-resources-schema-properties-limits.md "#/properties/resources/properties/limits#/properties/resources/properties/limits")       |
-| [requests](#requests) | `object` | Optional | cannot be null | [The root schema](values-properties-the-resources-schema-properties-requests.md "#/properties/resources/properties/requests#/properties/resources/properties/requests") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                          |
+| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [limits](#limits)     | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-limits.md "#/properties/resources/properties/limits#/properties/resources/properties/limits")       |
+| [requests](#requests) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-requests.md "#/properties/resources/properties/requests#/properties/resources/properties/requests") |
 
 ## limits
 
@@ -58,7 +58,7 @@ Limits describes the maximum amount of compute resources allowed. More info: <ht
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-resources-schema-properties-limits.md "#/properties/resources/properties/limits#/properties/resources/properties/limits")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-limits.md "#/properties/resources/properties/limits#/properties/resources/properties/limits")
 
 ### limits Type
 
@@ -76,7 +76,7 @@ Requests describes the minimum amount of compute resources required. If Requests
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-resources-schema-properties-requests.md "#/properties/resources/properties/requests#/properties/resources/properties/requests")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-requests.md "#/properties/resources/properties/requests#/properties/resources/properties/requests")
 
 ### requests Type
 

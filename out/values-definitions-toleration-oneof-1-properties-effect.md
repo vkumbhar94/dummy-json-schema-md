@@ -1,7 +1,7 @@
-# Untitled string in The root schema Schema
+# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/toleration/oneOf/1/properties/effect
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/1/properties/effect
 ```
 
 Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.

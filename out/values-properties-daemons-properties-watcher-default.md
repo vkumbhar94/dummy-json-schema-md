@@ -1,4 +1,4 @@
-# Untitled undefined type in The root schema Schema
+# Untitled undefined type in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/daemons/properties/watcher#/properties/daemons/properties/watcher/default

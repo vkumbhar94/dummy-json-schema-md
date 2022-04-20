@@ -34,11 +34,11 @@ The default value is:
 
 # proxy Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                           |
-| :------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [url](#url)   | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")    |
-| [user](#user) | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user") |
-| [pass](#pass) | `string` | Optional | cannot be null | [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                       |
+| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [url](#url)   | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")    |
+| [user](#user) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user") |
+| [pass](#pass) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass") |
 
 ## url
 
@@ -52,7 +52,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")
 
 ### url Type
 
@@ -76,7 +76,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user")
 
 ### user Type
 
@@ -100,7 +100,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass")
 
 ### pass Type
 

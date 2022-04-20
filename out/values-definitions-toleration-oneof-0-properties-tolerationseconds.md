@@ -1,7 +1,7 @@
-# Untitled integer in The root schema Schema
+# Untitled integer in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/tolerationSeconds
 ```
 
 TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.

@@ -1,4 +1,4 @@
-# Untitled array in The root schema Schema
+# Untitled array in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/global#/properties/global/properties/imagePullSecrets

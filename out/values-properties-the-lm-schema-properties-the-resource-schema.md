@@ -35,10 +35,10 @@ The default value is:
 
 # resource Properties
 
-| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                              |
-| :------------------------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [globalDeleteAfterDuration](#globaldeleteafterduration) | `string` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-globaldeleteafterduration-schema.md "#/properties/lm/properties/resource/properties/globalDeleteAfterDuration#/properties/lm/properties/resource/properties/globalDeleteAfterDuration") |
-| [alerting](#alerting)                                   | `object` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema.md "#/properties/lm/properties/resource/properties/alerting#/properties/lm/properties/resource/properties/alerting")                                                    |
+| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                          |
+| :------------------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [globalDeleteAfterDuration](#globaldeleteafterduration) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-globaldeleteafterduration-schema.md "#/properties/lm/properties/resource/properties/globalDeleteAfterDuration#/properties/lm/properties/resource/properties/globalDeleteAfterDuration") |
+| [alerting](#alerting)                                   | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema.md "#/properties/lm/properties/resource/properties/alerting#/properties/lm/properties/resource/properties/alerting")                                                    |
 
 ## globalDeleteAfterDuration
 
@@ -52,7 +52,7 @@ Global scheduled delete duration to delete resources after, values must if in IS
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-globaldeleteafterduration-schema.md "#/properties/lm/properties/resource/properties/globalDeleteAfterDuration#/properties/lm/properties/resource/properties/globalDeleteAfterDuration")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-globaldeleteafterduration-schema.md "#/properties/lm/properties/resource/properties/globalDeleteAfterDuration#/properties/lm/properties/resource/properties/globalDeleteAfterDuration")
 
 ### globalDeleteAfterDuration Type
 
@@ -94,7 +94,7 @@ Alerting settings to apply on resource groups, only cluster scoped resources are
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema.md "#/properties/lm/properties/resource/properties/alerting#/properties/lm/properties/resource/properties/alerting")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema.md "#/properties/lm/properties/resource/properties/alerting#/properties/lm/properties/resource/properties/alerting")
 
 ### alerting Type
 

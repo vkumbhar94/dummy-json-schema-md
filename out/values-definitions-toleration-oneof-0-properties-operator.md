@@ -1,7 +1,7 @@
-# Untitled string in The root schema Schema
+# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/toleration/oneOf/0/properties/operator
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/operator
 ```
 
 Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.

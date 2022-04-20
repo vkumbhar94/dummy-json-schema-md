@@ -32,9 +32,9 @@ The default value is:
 
 # worker Properties
 
-| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                              |
-| :-------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [poolSize](#poolsize) | `integer` | Optional | cannot be null | [The root schema](values-properties-daemons-properties-worker-properties-the-poolsize-schema.md "#/properties/daemons/properties/worker/properties/poolSize#/properties/daemons/properties/worker/properties/poolSize") |
+| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                          |
+| :-------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [poolSize](#poolsize) | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-worker-properties-the-poolsize-schema.md "#/properties/daemons/properties/worker/properties/poolSize#/properties/daemons/properties/worker/properties/poolSize") |
 
 ## poolSize
 
@@ -48,7 +48,7 @@ number of workers in a pool
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-daemons-properties-worker-properties-the-poolsize-schema.md "#/properties/daemons/properties/worker/properties/poolSize#/properties/daemons/properties/worker/properties/poolSize")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons-properties-worker-properties-the-poolsize-schema.md "#/properties/daemons/properties/worker/properties/poolSize#/properties/daemons/properties/worker/properties/poolSize")
 
 ### poolSize Type
 

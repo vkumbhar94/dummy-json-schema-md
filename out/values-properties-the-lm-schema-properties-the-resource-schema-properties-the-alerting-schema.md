@@ -32,9 +32,9 @@ The default value is:
 
 # alerting Properties
 
-| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                               |
-| :------------------ | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [disable](#disable) | `array` | Optional | cannot be null | [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema-properties-the-disable-schema.md "#/properties/lm/properties/resource/properties/alerting/properties/disable#/properties/lm/properties/resource/properties/alerting/properties/disable") |
+| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                           |
+| :------------------ | :------ | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [disable](#disable) | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema-properties-the-disable-schema.md "#/properties/lm/properties/resource/properties/alerting/properties/disable#/properties/lm/properties/resource/properties/alerting/properties/disable") |
 
 ## disable
 
@@ -48,7 +48,7 @@ Set of resources to disable alerting on
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema-properties-the-disable-schema.md "#/properties/lm/properties/resource/properties/alerting/properties/disable#/properties/lm/properties/resource/properties/alerting/properties/disable")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema-properties-the-resource-schema-properties-the-alerting-schema-properties-the-disable-schema.md "#/properties/lm/properties/resource/properties/alerting/properties/disable#/properties/lm/properties/resource/properties/alerting/properties/disable")
 
 ### disable Type
 

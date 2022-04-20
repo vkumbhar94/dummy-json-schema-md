@@ -1,4 +1,4 @@
-# Untitled object in The root schema Schema
+# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
 #/properties/resources/properties/limits#/properties/resources/properties/limits
@@ -16,9 +16,9 @@ Limits describes the maximum amount of compute resources allowed. More info: <ht
 
 # limits Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                  |
-| :-------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Additional Properties | Not specified | Optional | cannot be null | [The root schema](values-properties-the-resources-schema-properties-limits-additionalproperties.md "#/properties/resources/properties/limits#/properties/resources/properties/limits/additionalProperties") |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                              |
+| :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Additional Properties | Not specified | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-limits-additionalproperties.md "#/properties/resources/properties/limits#/properties/resources/properties/limits/additionalProperties") |
 
 ## Additional Properties
 
@@ -32,7 +32,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-resources-schema-properties-limits-additionalproperties.md "#/properties/resources/properties/limits#/properties/resources/properties/limits/additionalProperties")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema-properties-limits-additionalproperties.md "#/properties/resources/properties/limits#/properties/resources/properties/limits/additionalProperties")
 
 ### additionalProperties Type
 

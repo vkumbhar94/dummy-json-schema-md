@@ -39,11 +39,11 @@ The default value is:
 
 # kube-state-metrics Properties
 
-| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [enabled](#enabled)       | `boolean` | Optional | cannot be null | [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-enabled-schema.md "#/properties/kube-state-metrics/properties/enabled#/properties/kube-state-metrics/properties/enabled")          |
-| [replicas](#replicas)     | `integer` | Optional | cannot be null | [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-replicas-schema.md "#/properties/kube-state-metrics/properties/replicas#/properties/kube-state-metrics/properties/replicas")       |
-| [collectors](#collectors) | `array`   | Optional | cannot be null | [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-collectors-schema.md "#/properties/kube-state-metrics/properties/collectors#/properties/kube-state-metrics/properties/collectors") |
+| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                      |
+| :------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [enabled](#enabled)       | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-enabled-schema.md "#/properties/kube-state-metrics/properties/enabled#/properties/kube-state-metrics/properties/enabled")          |
+| [replicas](#replicas)     | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-replicas-schema.md "#/properties/kube-state-metrics/properties/replicas#/properties/kube-state-metrics/properties/replicas")       |
+| [collectors](#collectors) | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-collectors-schema.md "#/properties/kube-state-metrics/properties/collectors#/properties/kube-state-metrics/properties/collectors") |
 
 ## enabled
 
@@ -57,7 +57,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-enabled-schema.md "#/properties/kube-state-metrics/properties/enabled#/properties/kube-state-metrics/properties/enabled")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-enabled-schema.md "#/properties/kube-state-metrics/properties/enabled#/properties/kube-state-metrics/properties/enabled")
 
 ### enabled Type
 
@@ -81,7 +81,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-replicas-schema.md "#/properties/kube-state-metrics/properties/replicas#/properties/kube-state-metrics/properties/replicas")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-replicas-schema.md "#/properties/kube-state-metrics/properties/replicas#/properties/kube-state-metrics/properties/replicas")
 
 ### replicas Type
 
@@ -117,7 +117,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [The root schema](values-properties-the-kube-state-metrics-schema-properties-the-collectors-schema.md "#/properties/kube-state-metrics/properties/collectors#/properties/kube-state-metrics/properties/collectors")
+*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema-properties-the-collectors-schema.md "#/properties/kube-state-metrics/properties/collectors#/properties/kube-state-metrics/properties/collectors")
 
 ### collectors Type
 

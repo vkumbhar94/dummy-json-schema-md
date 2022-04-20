@@ -1,7 +1,7 @@
-# Untitled string in The root schema Schema
+# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
 
 ```txt
-http://example.com/example.json#/definitions/toleration/oneOf/1/properties/value
+http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/1/properties/value
 ```
 
 Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
