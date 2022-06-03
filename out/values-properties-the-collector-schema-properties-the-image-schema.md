@@ -8,7 +8,7 @@ An explanation about the purpose of this instance.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## image Type
 
@@ -35,12 +35,12 @@ The default value is:
 
 # image Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                         |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [registry](#registry)     | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-registry-schema.md "#/properties/collector/properties/image/properties/registry#/properties/collector/properties/image/properties/registry")       |
-| [repository](#repository) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-repository-schema.md "#/properties/collector/properties/image/properties/repository#/properties/collector/properties/image/properties/repository") |
-| [tag](#tag)               | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-tag-schema.md "#/properties/collector/properties/image/properties/tag#/properties/collector/properties/image/properties/tag")                      |
-| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-pullpolicy-schema.md "#/properties/collector/properties/image/properties/pullPolicy#/properties/collector/properties/image/properties/pullPolicy") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                   |
+| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [registry](#registry)     | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-registry-schema.md "#/properties/collector/properties/image/properties/registry#/properties/collector/properties/image/properties/registry")       |
+| [repository](#repository) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-repository-schema.md "#/properties/collector/properties/image/properties/repository#/properties/collector/properties/image/properties/repository") |
+| [tag](#tag)               | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-tag-schema.md "#/properties/collector/properties/image/properties/tag#/properties/collector/properties/image/properties/tag")                      |
+| [pullPolicy](#pullpolicy) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-pullpolicy-schema.md "#/properties/collector/properties/image/properties/pullPolicy#/properties/collector/properties/image/properties/pullPolicy") |
 
 ## registry
 
@@ -54,7 +54,7 @@ Container Image Registry
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-registry-schema.md "#/properties/collector/properties/image/properties/registry#/properties/collector/properties/image/properties/registry")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-registry-schema.md "#/properties/collector/properties/image/properties/registry#/properties/collector/properties/image/properties/registry")
 
 ### registry Type
 
@@ -82,7 +82,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-repository-schema.md "#/properties/collector/properties/image/properties/repository#/properties/collector/properties/image/properties/repository")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-repository-schema.md "#/properties/collector/properties/image/properties/repository#/properties/collector/properties/image/properties/repository")
 
 ### repository Type
 
@@ -106,7 +106,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-tag-schema.md "#/properties/collector/properties/image/properties/tag#/properties/collector/properties/image/properties/tag")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-tag-schema.md "#/properties/collector/properties/image/properties/tag#/properties/collector/properties/image/properties/tag")
 
 ### tag Type
 
@@ -130,7 +130,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-pullpolicy-schema.md "#/properties/collector/properties/image/properties/pullPolicy#/properties/collector/properties/image/properties/pullPolicy")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-image-schema-properties-the-pullpolicy-schema.md "#/properties/collector/properties/image/properties/pullPolicy#/properties/collector/properties/image/properties/pullPolicy")
 
 ### pullPolicy Type
 

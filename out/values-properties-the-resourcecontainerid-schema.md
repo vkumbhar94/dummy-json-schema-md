@@ -4,7 +4,8 @@
 #/properties/resourceContainerID#/properties/resourceContainerID
 ```
 
-A parent group id that will hold all cluster resources under it. This is useful when Argus is installed with non-admin user's token.
+The resourceContainerID is recommended to when Argus is being installed with non-admin user credentials.
+The resourceContainerID is A parent resource group id that will hold all cluster resources under it.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |

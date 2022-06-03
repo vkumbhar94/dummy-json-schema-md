@@ -1,20 +1,20 @@
-# Logicmonitor Argus Helm Chart Values Schema Schema
+# Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json
+http://example.com/example.json
 ```
 
-The root schema comprises the entire JSON document.
+The Argus Helm Chart Configuration Schema
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                      |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------- |
 | Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json](values.schema.json "open original schema") |
 
-## Logicmonitor Argus Helm Chart Values Schema Type
+## Argus Helm Chart Configuration Schema Type
 
-`object` ([Logicmonitor Argus Helm Chart Values Schema](values.md))
+`object` ([Argus Helm Chart Configuration Schema](values.md))
 
-## Logicmonitor Argus Helm Chart Values Schema Default Value
+## Argus Helm Chart Configuration Schema Default Value
 
 The default value is:
 
@@ -22,7 +22,7 @@ The default value is:
 {}
 ```
 
-## Logicmonitor Argus Helm Chart Values Schema Examples
+## Argus Helm Chart Configuration Schema Examples
 
 ```json
 {
@@ -180,44 +180,45 @@ The default value is:
 }
 ```
 
-# Logicmonitor Argus Helm Chart Values Schema Properties
+# Argus Helm Chart Configuration Schema Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                       |
-| :------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [accessID](#accessid)                             | `string`  | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-api-token-accessid.md "#/properties/accessID#/properties/accessID")                                 |
-| [accessKey](#accesskey)                           | `string`  | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-api-token-accesskey.md "#/properties/accessKey#/properties/accessKey")                              |
-| [account](#account)                               | `string`  | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-account-name.md "#/properties/account#/properties/account")                                         |
-| [clusterName](#clustername)                       | `string`  | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-friendly-cluster-name.md "#/properties/clusterName#/properties/clusterName")                                     |
-| [clusterTreeParentID](#clustertreeparentid)       | `integer` | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-clustertreeparentid.md "#/properties/clusterTreeParentID#/properties/clusterTreeParentID")                   |
-| [image](#image)                                   | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema.md "#/properties/image#/properties/image")                                                      |
-| [nodeSelector](#nodeselector)                     | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-nodeselector.md "#/properties/nodeSelector#/properties/nodeSelector")                                            |
-| [affinity](#affinity)                             | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-affinity.md "#/properties/affinity#/properties/affinity")                                                        |
-| [priorityClassName](#priorityclassname)           | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-priorityclassname.md "#/properties/priorityClassName#/properties/priorityClassName")                             |
-| [tolerations](#tolerations)                       | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-tolerations.md "#/properties/tolerations#/properties/tolerations")                                               |
-| [resources](#resources)                           | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema.md "#/properties/resources#/properties/resources")                                          |
-| [labels](#labels)                                 | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-extralabels.md "#/properties/labels#/properties/labels")                                                         |
-| [annotations](#annotations)                       | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-extraannotations.md "#/properties/annotations#/properties/annotations")                                          |
-| [replicas](#replicas)                             | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-replicas-schema.md "#/properties/replicas#/properties/replicas")                                             |
-| [resourceContainerID](#resourcecontainerid)       | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resourcecontainerid-schema.md "#/properties/resourceContainerID#/properties/resourceContainerID")            |
-| [log](#log)                                       | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-log.md "#/properties/log#/properties/log")                                                                       |
-| [collectorsetcontroller](#collectorsetcontroller) | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller#/properties/collectorsetcontroller")              |
-| [proxy](#proxy)                                   | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-proxy.md "#/properties/proxy#/properties/proxy")                                                                 |
-| [etcdDiscoveryToken](#etcddiscoverytoken)         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-etcddiscoverytoken.md "#/properties/etcdDiscoveryToken#/properties/etcdDiscoveryToken")                          |
-| [ignoreSSL](#ignoressl)                           | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-ignoressl.md "#/properties/ignoreSSL#/properties/ignoreSSL")                                                     |
-| [daemons](#daemons)                               | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons.md "#/properties/daemons#/properties/daemons")                                                           |
-| [monitoring](#monitoring)                         | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema.md "#/properties/monitoring#/properties/monitoring")                                       |
-| [lm](#lm)                                         | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema.md "#/properties/lm#/properties/lm")                                                               |
-| [filters](#filters)                               | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-filters-schema.md "#/properties/filters#/properties/filters")                                                |
-| [selfMonitor](#selfmonitor)                       | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema.md "#/properties/selfMonitor#/properties/selfMonitor")                                    |
-| [debug](#debug)                                   | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema.md "#/properties/debug#/properties/debug")                                                      |
-| [collector](#collector)                           | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema.md "#/properties/collector#/properties/collector")                                          |
-| [kube-state-metrics](#kube-state-metrics)         | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema.md "#/properties/kube-state-metrics#/properties/kube-state-metrics")               |
-| [global](#global)                                 | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global.md "#/properties/global#/properties/global")                                                              |
-| [nameOverride](#nameoverride)                     | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-nameoverride-schema.md "#/properties/nameOverride#/properties/nameOverride")                                 |
-| [fullnameOverride](#fullnameoverride)             | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-fullnameoverride-schema.md "#/properties/fullnameOverride#/properties/fullnameOverride")                     |
-| [rbac](#rbac)                                     | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema.md "#/properties/rbac#/properties/rbac")                                                         |
-| [serviceAccount](#serviceaccount)                 | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-serviceaccount-schema.md "#/properties/serviceAccount#/properties/serviceAccount")                           |
-| [imagePullSecrets](#imagepullsecrets)             | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-imagepullsecrets.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/properties/imagePullSecrets") |
+| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
+| :------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [accessID](#accessid)                             | `string`  | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-api-token-accessid.md "#/properties/accessID#/properties/accessID")                               |
+| [accessKey](#accesskey)                           | `string`  | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-api-token-accesskey.md "#/properties/accessKey#/properties/accessKey")                            |
+| [account](#account)                               | `string`  | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-account-name.md "#/properties/account#/properties/account")                                       |
+| [clusterName](#clustername)                       | `string`  | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-friendly-cluster-name.md "#/properties/clusterName#/properties/clusterName")                                   |
+| [clusterTreeParentID](#clustertreeparentid)       | `integer` | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-clustertreeparentid.md "#/properties/clusterTreeParentID#/properties/clusterTreeParentID")                 |
+| [image](#image)                                   | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-argus-docker-image-schema.md "#/properties/image#/properties/image")                                           |
+| [nodeSelector](#nodeselector)                     | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-nodeselector.md "#/properties/nodeSelector#/properties/nodeSelector")                                          |
+| [affinity](#affinity)                             | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-affinity.md "#/properties/affinity#/properties/affinity")                                                      |
+| [priorityClassName](#priorityclassname)           | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-priorityclassname.md "#/properties/priorityClassName#/properties/priorityClassName")                           |
+| [tolerations](#tolerations)                       | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-tolerations.md "#/properties/tolerations#/properties/tolerations")                                             |
+| [resources](#resources)                           | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-argus-resource-limits-schema.md "#/properties/resources#/properties/resources")                            |
+| [labels](#labels)                                 | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-argus-extra-labels-schema.md "#/properties/labels#/properties/labels")                                     |
+| [annotations](#annotations)                       | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-argus-extra-annotations-schema.md "#/properties/annotations#/properties/annotations")                      |
+| [replicas](#replicas)                             | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-replicas-schema.md "#/properties/replicas#/properties/replicas")                                           |
+| [resourceContainerID](#resourcecontainerid)       | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-resourcecontainerid-schema.md "#/properties/resourceContainerID#/properties/resourceContainerID")          |
+| [log](#log)                                       | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-log.md "#/properties/log#/properties/log")                                                                     |
+| [collectorsetcontroller](#collectorsetcontroller) | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collectorsetcontroller-schema.md "#/properties/collectorsetcontroller#/properties/collectorsetcontroller") |
+| [proxy](#proxy)                                   | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-proxy-schema.md "#/properties/proxy#/properties/proxy")                                                    |
+| [etcdDiscoveryToken](#etcddiscoverytoken)         | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-etcd-discoverytoken-schema.md "#/properties/etcdDiscoveryToken#/properties/etcdDiscoveryToken")            |
+| [ignoreSSL](#ignoressl)                           | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-ignoressl-schema.md "#/properties/ignoreSSL#/properties/ignoreSSL")                                        |
+| [daemons](#daemons)                               | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-argus-daemon-configurations-schema.md "#/properties/daemons#/properties/daemons")                          |
+| [monitoring](#monitoring)                         | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-monitoring-schema.md "#/properties/monitoring#/properties/monitoring")                                     |
+| [lm](#lm)                                         | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-logicmonitor-portal-configurations.md "#/properties/lm#/properties/lm")                                    |
+| [filters](#filters)                               | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-filters-schema.md "#/properties/filters#/properties/filters")                                              |
+| [selfMonitor](#selfmonitor)                       | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema.md "#/properties/selfMonitor#/properties/selfMonitor")                                  |
+| [debug](#debug)                                   | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema.md "#/properties/debug#/properties/debug")                                                    |
+| [collector](#collector)                           | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema.md "#/properties/collector#/properties/collector")                                        |
+| [kube-state-metrics](#kube-state-metrics)         | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-kube-state-metrics-schema.md "#/properties/kube-state-metrics#/properties/kube-state-metrics")             |
+| [global](#global)                                 | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-global.md "#/properties/global#/properties/global")                                                            |
+| [nameOverride](#nameoverride)                     | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-nameoverride-schema.md "#/properties/nameOverride#/properties/nameOverride")                               |
+| [fullnameOverride](#fullnameoverride)             | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-fullnameoverride-schema.md "#/properties/fullnameOverride#/properties/fullnameOverride")                   |
+| [rbac](#rbac)                                     | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-rbac-schema.md "#/properties/rbac#/properties/rbac")                                                       |
+| [serviceAccount](#serviceaccount)                 | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-serviceaccount-schema.md "#/properties/serviceAccount#/properties/serviceAccount")                         |
+| [imagePullSecrets](#imagepullsecrets)             | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-imagepullsecrets.md "#/properties/imagePullSecrets#/properties/imagePullSecrets")                              |
+| [probe](#probe)                                   | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-probe.md "#/properties/probe#/properties/probe")                                                               |
 
 ## accessID
 
@@ -232,7 +233,7 @@ NOTE: Always add surrounding double quotes to avoid special character parsing er
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-api-token-accessid.md "#/properties/accessID#/properties/accessID")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-api-token-accessid.md "#/properties/accessID#/properties/accessID")
 
 ### accessID Type
 
@@ -258,7 +259,7 @@ NOTE: Always add surrounding double quotes to avoid special character parsing er
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-api-token-accesskey.md "#/properties/accessKey#/properties/accessKey")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-api-token-accesskey.md "#/properties/accessKey#/properties/accessKey")
 
 ### accessKey Type
 
@@ -274,7 +275,7 @@ NOTE: Always add surrounding double quotes to avoid special character parsing er
 
 The LogicMonitor account name.
 Value should be trimmed from URL \_\_\_.logicmonitor.com
-example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid here
+example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid value
 
 `account`
 
@@ -284,7 +285,7 @@ example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid here
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-logicmonitor-account-name.md "#/properties/account#/properties/account")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-logicmonitor-account-name.md "#/properties/account#/properties/account")
 
 ### account Type
 
@@ -299,7 +300,7 @@ example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid here
 ## clusterName
 
 A unique name given to the cluster's resource group.
-NOTE: do not change name once application deployed in cluster, breaks correlation at multiple places
+NOTE: do not change name once application deployed in cluster. If changed, breaks correlation at multiple places
 example: Organised Resource group name of kubernetes resource tree generated as "Kubernetes Cluster: <clusterName>"
 
 `clusterName`
@@ -310,7 +311,7 @@ example: Organised Resource group name of kubernetes resource tree generated as 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-friendly-cluster-name.md "#/properties/clusterName#/properties/clusterName")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-friendly-cluster-name.md "#/properties/clusterName#/properties/clusterName")
 
 ### clusterName Type
 
@@ -324,7 +325,8 @@ example: Organised Resource group name of kubernetes resource tree generated as 
 
 ## clusterTreeParentID
 
-clusterTreeParentID is a parent group ID underneath the organised kubernetes resource tree gets created
+clusterTreeParentID is a parent static resource group ID underneath the organised kubernetes resource tree gets created.
+A static resource group with the mentioned ID should exit beforehand.
 
 `clusterTreeParentID`
 
@@ -334,7 +336,7 @@ clusterTreeParentID is a parent group ID underneath the organised kubernetes res
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-clustertreeparentid.md "#/properties/clusterTreeParentID#/properties/clusterTreeParentID")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-clustertreeparentid.md "#/properties/clusterTreeParentID#/properties/clusterTreeParentID")
 
 ### clusterTreeParentID Type
 
@@ -360,21 +362,21 @@ The default value is:
 
 ## image
 
-An explanation about the purpose of this instance.
+The image holds the Argus docker image details.
 
 `image`
 
 *   is optional
 
-*   Type: `object` ([The image schema](values-properties-the-image-schema.md))
+*   Type: `object` ([Argus Docker Image Schema](values-properties-argus-docker-image-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-image-schema.md "#/properties/image#/properties/image")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-argus-docker-image-schema.md "#/properties/image#/properties/image")
 
 ### image Type
 
-`object` ([The image schema](values-properties-the-image-schema.md))
+`object` ([Argus Docker Image Schema](values-properties-argus-docker-image-schema.md))
 
 ### image Default Value
 
@@ -407,7 +409,7 @@ NodeSelector is a selector which must be true for the pod to fit on a node. Sele
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-nodeselector.md "#/properties/nodeSelector#/properties/nodeSelector")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-nodeselector.md "#/properties/nodeSelector#/properties/nodeSelector")
 
 ### nodeSelector Type
 
@@ -439,7 +441,7 @@ It allows you to constrain which nodes your pod is eligible to be scheduled on.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-affinity.md "#/properties/affinity#/properties/affinity")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-affinity.md "#/properties/affinity#/properties/affinity")
 
 ### affinity Type
 
@@ -471,7 +473,7 @@ The priority class name for Pod priority. If this parameter is set then user mus
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-priorityclassname.md "#/properties/priorityClassName#/properties/priorityClassName")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-priorityclassname.md "#/properties/priorityClassName#/properties/priorityClassName")
 
 ### priorityClassName Type
 
@@ -495,7 +497,7 @@ tolerations are applied to pods, and allow the pods to schedule onto nodes with 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-tolerations.md "#/properties/tolerations#/properties/tolerations")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-tolerations.md "#/properties/tolerations#/properties/tolerations")
 
 ### tolerations Type
 
@@ -521,21 +523,21 @@ The default value is:
 
 ## resources
 
-resources are Pod resource limits
+The Argus pod resource limits
 
 `resources`
 
 *   is optional
 
-*   Type: `object` ([The resources schema](values-properties-the-resources-schema.md))
+*   Type: `object` ([The Argus resource limits schema](values-properties-the-argus-resource-limits-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resources-schema.md "#/properties/resources#/properties/resources")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-argus-resource-limits-schema.md "#/properties/resources#/properties/resources")
 
 ### resources Type
 
-`object` ([The resources schema](values-properties-the-resources-schema.md))
+`object` ([The Argus resource limits schema](values-properties-the-argus-resource-limits-schema.md))
 
 ### resources Default Value
 
@@ -570,15 +572,15 @@ Labels to apply on all objects created by Argus. Map of string keys and values t
 
 *   is optional
 
-*   Type: `object` ([extraLabels](values-properties-extralabels.md))
+*   Type: `object` ([The Argus extra labels schema](values-properties-the-argus-extra-labels-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-extralabels.md "#/properties/labels#/properties/labels")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-argus-extra-labels-schema.md "#/properties/labels#/properties/labels")
 
 ### labels Type
 
-`object` ([extraLabels](values-properties-extralabels.md))
+`object` ([The Argus extra labels schema](values-properties-the-argus-extra-labels-schema.md))
 
 ### labels Default Value
 
@@ -602,15 +604,15 @@ Annotations to apply on all objects created by Argus. Annotations is an unstruct
 
 *   is optional
 
-*   Type: `object` ([extraAnnotations](values-properties-extraannotations.md))
+*   Type: `object` ([The Argus extra annotations schema](values-properties-the-argus-extra-annotations-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-extraannotations.md "#/properties/annotations#/properties/annotations")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-argus-extra-annotations-schema.md "#/properties/annotations#/properties/annotations")
 
 ### annotations Type
 
-`object` ([extraAnnotations](values-properties-extraannotations.md))
+`object` ([The Argus extra annotations schema](values-properties-the-argus-extra-annotations-schema.md))
 
 ### annotations Default Value
 
@@ -628,7 +630,7 @@ The default value is:
 
 ## replicas
 
-Replicas - defaults to 1, param is just for development purpose, do not increase more than one replicas in production
+Argus Pod Replicas - defaults to 1, param is just for development purpose, do not increase more than one replicas in production
 
 `replicas`
 
@@ -638,7 +640,7 @@ Replicas - defaults to 1, param is just for development purpose, do not increase
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-replicas-schema.md "#/properties/replicas#/properties/replicas")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-replicas-schema.md "#/properties/replicas#/properties/replicas")
 
 ### replicas Type
 
@@ -666,7 +668,8 @@ The default value is:
 
 ## resourceContainerID
 
-A parent group id that will hold all cluster resources under it. This is useful when Argus is installed with non-admin user's token.
+The resourceContainerID is recommended to when Argus is being installed with non-admin user credentials.
+The resourceContainerID is A parent resource group id that will hold all cluster resources under it.
 
 `resourceContainerID`
 
@@ -676,7 +679,7 @@ A parent group id that will hold all cluster resources under it. This is useful 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-resourcecontainerid-schema.md "#/properties/resourceContainerID#/properties/resourceContainerID")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-resourcecontainerid-schema.md "#/properties/resourceContainerID#/properties/resourceContainerID")
 
 ### resourceContainerID Type
 
@@ -702,7 +705,7 @@ The default value is:
 
 ## log
 
-Log Configurations
+The Argus Log Configurations Schema
 
 `log`
 
@@ -712,7 +715,7 @@ Log Configurations
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-log.md "#/properties/log#/properties/log")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-log.md "#/properties/log#/properties/log")
 
 ### log Type
 
@@ -736,21 +739,21 @@ The default value is:
 
 ## collectorsetcontroller
 
-Collectorset-Controller Configurations
+The Collectorset-Controller Configurations
 
 `collectorsetcontroller`
 
 *   is optional
 
-*   Type: `object` ([collectorsetcontroller](values-properties-collectorsetcontroller.md))
+*   Type: `object` ([The collectorsetcontroller schema](values-properties-the-collectorsetcontroller-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-collectorsetcontroller.md "#/properties/collectorsetcontroller#/properties/collectorsetcontroller")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collectorsetcontroller-schema.md "#/properties/collectorsetcontroller#/properties/collectorsetcontroller")
 
 ### collectorsetcontroller Type
 
-`object` ([collectorsetcontroller](values-properties-collectorsetcontroller.md))
+`object` ([The collectorsetcontroller schema](values-properties-the-collectorsetcontroller-schema.md))
 
 ### collectorsetcontroller Default Value
 
@@ -771,21 +774,21 @@ The default value is:
 
 ## proxy
 
-Http/s proxy
+The Http/s proxy for Argus
 
 `proxy`
 
 *   is optional
 
-*   Type: `object` ([proxy](values-properties-proxy.md))
+*   Type: `object` ([The proxy schema](values-properties-the-proxy-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-proxy.md "#/properties/proxy#/properties/proxy")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-proxy-schema.md "#/properties/proxy#/properties/proxy")
 
 ### proxy Type
 
-`object` ([proxy](values-properties-proxy.md))
+`object` ([The proxy schema](values-properties-the-proxy-schema.md))
 
 ### proxy Default Value
 
@@ -807,21 +810,21 @@ The default value is:
 
 ## etcdDiscoveryToken
 
-ETCD discovery token
+The ETCD DiscoveryToken
 
 `etcdDiscoveryToken`
 
 *   is optional
 
-*   Type: `string` ([etcdDiscoveryToken](values-properties-etcddiscoverytoken.md))
+*   Type: `string` ([The ETCD DiscoveryToken Schema](values-properties-the-etcd-discoverytoken-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-etcddiscoverytoken.md "#/properties/etcdDiscoveryToken#/properties/etcdDiscoveryToken")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-etcd-discoverytoken-schema.md "#/properties/etcdDiscoveryToken#/properties/etcdDiscoveryToken")
 
 ### etcdDiscoveryToken Type
 
-`string` ([etcdDiscoveryToken](values-properties-etcddiscoverytoken.md))
+`string` ([The ETCD DiscoveryToken Schema](values-properties-the-etcd-discoverytoken-schema.md))
 
 ### etcdDiscoveryToken Examples
 
@@ -837,15 +840,15 @@ Set flag to ignore ssl/tls validation
 
 *   is optional
 
-*   Type: `boolean` ([ignoreSSL](values-properties-ignoressl.md))
+*   Type: `boolean` ([The ignoreSSL Schema](values-properties-the-ignoressl-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-ignoressl.md "#/properties/ignoreSSL#/properties/ignoreSSL")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-ignoressl-schema.md "#/properties/ignoreSSL#/properties/ignoreSSL")
 
 ### ignoreSSL Type
 
-`boolean` ([ignoreSSL](values-properties-ignoressl.md))
+`boolean` ([The ignoreSSL Schema](values-properties-the-ignoressl-schema.md))
 
 ### ignoreSSL Examples
 
@@ -855,21 +858,21 @@ false
 
 ## daemons
 
-Daemon configurations
+The Argus Daemon configurations
 
 `daemons`
 
 *   is optional
 
-*   Type: `object` ([daemons](values-properties-daemons.md))
+*   Type: `object` ([The Argus Daemon configurations Schema](values-properties-the-argus-daemon-configurations-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-daemons.md "#/properties/daemons#/properties/daemons")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-argus-daemon-configurations-schema.md "#/properties/daemons#/properties/daemons")
 
 ### daemons Type
 
-`object` ([daemons](values-properties-daemons.md))
+`object` ([The Argus Daemon configurations Schema](values-properties-the-argus-daemon-configurations-schema.md))
 
 ### daemons Default Value
 
@@ -905,7 +908,7 @@ The default value is:
 
 ## monitoring
 
-Monitoring settings
+The Monitoring settings
 
 `monitoring`
 
@@ -915,7 +918,7 @@ Monitoring settings
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema.md "#/properties/monitoring#/properties/monitoring")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-monitoring-schema.md "#/properties/monitoring#/properties/monitoring")
 
 ### monitoring Type
 
@@ -939,21 +942,21 @@ The default value is:
 
 ## lm
 
-Settings reflect on Logicmonitor Portal
+The Settings/Configurations which reflect on Logicmonitor Portal
 
 `lm`
 
 *   is optional
 
-*   Type: `object` ([The lm schema](values-properties-the-lm-schema.md))
+*   Type: `object` ([The Logicmonitor Portal Configurations](values-properties-the-logicmonitor-portal-configurations.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-lm-schema.md "#/properties/lm#/properties/lm")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-logicmonitor-portal-configurations.md "#/properties/lm#/properties/lm")
 
 ### lm Type
 
-`object` ([The lm schema](values-properties-the-lm-schema.md))
+`object` ([The Logicmonitor Portal Configurations](values-properties-the-logicmonitor-portal-configurations.md))
 
 ### lm Default Value
 
@@ -1003,7 +1006,7 @@ Set of filter rules to exclude from adding into Logimonitor
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-filters-schema.md "#/properties/filters#/properties/filters")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-filters-schema.md "#/properties/filters#/properties/filters")
 
 ### filters Type
 
@@ -1047,7 +1050,7 @@ Configurations to expose self monitor metrics in Openmetrics format
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema.md "#/properties/selfMonitor#/properties/selfMonitor")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema.md "#/properties/selfMonitor#/properties/selfMonitor")
 
 ### selfMonitor Type
 
@@ -1072,7 +1075,7 @@ The default value is:
 
 ## debug
 
-Application debug configurations
+The Application debugging configurations
 
 `debug`
 
@@ -1082,7 +1085,7 @@ Application debug configurations
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema.md "#/properties/debug#/properties/debug")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema.md "#/properties/debug#/properties/debug")
 
 ### debug Type
 
@@ -1118,7 +1121,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema.md "#/properties/collector#/properties/collector")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema.md "#/properties/collector#/properties/collector")
 
 ### collector Type
 
@@ -1180,7 +1183,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-kube-state-metrics-schema.md "#/properties/kube-state-metrics#/properties/kube-state-metrics")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-kube-state-metrics-schema.md "#/properties/kube-state-metrics#/properties/kube-state-metrics")
 
 ### kube-state-metrics Type
 
@@ -1221,7 +1224,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global.md "#/properties/global#/properties/global")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-global.md "#/properties/global#/properties/global")
 
 ### global Type
 
@@ -1239,7 +1242,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-nameoverride-schema.md "#/properties/nameOverride#/properties/nameOverride")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-nameoverride-schema.md "#/properties/nameOverride#/properties/nameOverride")
 
 ### nameOverride Type
 
@@ -1263,7 +1266,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-fullnameoverride-schema.md "#/properties/fullnameOverride#/properties/fullnameOverride")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-fullnameoverride-schema.md "#/properties/fullnameOverride#/properties/fullnameOverride")
 
 ### fullnameOverride Type
 
@@ -1287,7 +1290,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema.md "#/properties/rbac#/properties/rbac")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-rbac-schema.md "#/properties/rbac#/properties/rbac")
 
 ### rbac Type
 
@@ -1321,7 +1324,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-serviceaccount-schema.md "#/properties/serviceAccount#/properties/serviceAccount")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-serviceaccount-schema.md "#/properties/serviceAccount#/properties/serviceAccount")
 
 ### serviceAccount Type
 
@@ -1351,24 +1354,42 @@ ImagePullSecrets is an optional list of references to secrets in the same namesp
 
 *   is optional
 
-*   Type: `object[]` ([Details](values-definitions-iok8sapicorev1localobjectreference.md))
+*   Type: unknown\[]
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-imagepullsecrets.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/properties/imagePullSecrets")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-imagepullsecrets.md "#/properties/imagePullSecrets#/properties/imagePullSecrets")
 
 ### imagePullSecrets Type
 
-`object[]` ([Details](values-definitions-iok8sapicorev1localobjectreference.md))
+unknown\[]
 
-# Logicmonitor Argus Helm Chart Values Schema Definitions
+## probe
+
+The container probe configuration schema
+
+`probe`
+
+*   is optional
+
+*   Type: `object` ([Details](values-properties-probe.md))
+
+*   cannot be null
+
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-probe.md "#/properties/probe#/properties/probe")
+
+### probe Type
+
+`object` ([Details](values-properties-probe.md))
+
+# Argus Helm Chart Configuration Schema Definitions
 
 ## Definitions group toleration
 
 Reference this group by using
 
 ```json
-{"$ref":"http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration"}
+{"$ref":"http://example.com/example.json#/definitions/toleration"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -1379,14 +1400,14 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts"}
+{"$ref":"http://example.com/example.json#/definitions/propopts"}
 ```
 
-| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
-| :-------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/name")         |
-| [value](#value)       | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/value")       |
-| [override](#override) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-override.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/override") |
+| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                              |
+| :-------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)         | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-name.md "http://example.com/example.json#/definitions/propopts/properties/name")         |
+| [value](#value)       | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-value.md "http://example.com/example.json#/definitions/propopts/properties/value")       |
+| [override](#override) | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-override.md "http://example.com/example.json#/definitions/propopts/properties/override") |
 
 ### name
 
@@ -1400,7 +1421,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/name")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-name.md "http://example.com/example.json#/definitions/propopts/properties/name")
 
 #### name Type
 
@@ -1422,7 +1443,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/value")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-value.md "http://example.com/example.json#/definitions/propopts/properties/value")
 
 #### value Type
 
@@ -1444,7 +1465,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-override.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/override")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-override.md "http://example.com/example.json#/definitions/propopts/properties/override")
 
 #### override Type
 
@@ -1463,7 +1484,7 @@ true
 Reference this group by using
 
 ```json
-{"$ref":"http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propoptsarray"}
+{"$ref":"http://example.com/example.json#/definitions/propoptsarray"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -1474,7 +1495,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"}
+{"$ref":"http://example.com/example.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -1485,12 +1506,12 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"}
+{"$ref":"http://example.com/example.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"}
 ```
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                  |
-| :-------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name-1) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-iok8sapicorev1localobjectreference-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :-------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name-1) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-iok8sapicorev1localobjectreference-properties-name.md "http://example.com/example.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name") |
 
 ### name
 
@@ -1504,7 +1525,7 @@ Name of the referent. More info: <https://kubernetes.io/docs/concepts/overview/w
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-iok8sapicorev1localobjectreference-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-iok8sapicorev1localobjectreference-properties-name.md "http://example.com/example.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name")
 
 #### name Type
 

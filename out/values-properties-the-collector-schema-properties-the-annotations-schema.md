@@ -27,3 +27,27 @@ The default value is:
 ```json
 {}
 ```
+
+# annotations Properties
+
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                  |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Additional Properties | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-annotations-schema-additionalproperties.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations/additionalProperties") |
+
+## Additional Properties
+
+Additional properties are allowed, as long as they follow this schema:
+
+
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-annotations-schema-additionalproperties.md "#/properties/collector/properties/annotations#/properties/collector/properties/annotations/additionalProperties")
+
+### additionalProperties Type
+
+`string`

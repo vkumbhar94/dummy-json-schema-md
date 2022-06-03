@@ -1,4 +1,4 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec
@@ -16,20 +16,20 @@
 
 # spec Properties
 
-| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| :-------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [containers](#containers)               | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers")                      |
-| [dnsConfig](#dnsconfig)                 | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsConfig#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig")                         |
-| [dnsPolicy](#dnspolicy)                 | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnspolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsPolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsPolicy")                         |
-| [hostAliases](#hostaliases)             | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-hostaliases.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/hostAliases#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/hostAliases")                   |
-| [nodeName](#nodename)                   | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodename.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodename#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeName")                            |
-| [nodeSelector](#nodeselector)           | `object`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodeselector.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodeselector#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeSelector")                |
-| [priority](#priority)                   | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priority.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priority#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priority")                            |
-| [priorityClassName](#priorityclassname) | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priorityclassname.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priorityclassname#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priorityClassName") |
-| [restartPolicy](#restartpolicy)         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-restartpolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/restartpolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/restartPolicy")             |
-| [schedulerName](#schedulername)         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-schedulername.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/schedulername#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/schedulerName")             |
-| [tolerations](#tolerations)             | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-tolerations.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/tolerations#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/tolerations")                   |
-| [volumes](#volumes)                     | `array`   | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes")                               |
+| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                            |
+| :-------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [containers](#containers)               | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers")                      |
+| [dnsConfig](#dnsconfig)                 | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsConfig#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig")                         |
+| [dnsPolicy](#dnspolicy)                 | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnspolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsPolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsPolicy")                         |
+| [hostAliases](#hostaliases)             | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-hostaliases.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/hostAliases#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/hostAliases")                   |
+| [nodeName](#nodename)                   | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodename.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodename#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeName")                            |
+| [nodeSelector](#nodeselector)           | `object`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodeselector.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodeselector#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeSelector")                |
+| [priority](#priority)                   | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priority.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priority#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priority")                            |
+| [priorityClassName](#priorityclassname) | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priorityclassname.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priorityclassname#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priorityClassName") |
+| [restartPolicy](#restartpolicy)         | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-restartpolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/restartpolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/restartPolicy")             |
+| [schedulerName](#schedulername)         | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-schedulername.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/schedulername#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/schedulerName")             |
+| [tolerations](#tolerations)             | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-tolerations.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/tolerations#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/tolerations")                   |
+| [volumes](#volumes)                     | `array`   | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes")                               |
 
 ## containers
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers")
 
 ### containers Type
 
@@ -61,7 +61,7 @@ PodDNSConfig defines the DNS parameters of a pod in addition to those generated 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsConfig#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsConfig#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig")
 
 ### dnsConfig Type
 
@@ -79,7 +79,7 @@ Set DNS policy for the pod. Defaults to "ClusterFirst". Valid values are 'Cluste
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnspolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsPolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsPolicy")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnspolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsPolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsPolicy")
 
 ### dnsPolicy Type
 
@@ -97,7 +97,7 @@ HostAliases is an optional list of hosts and IPs that will be injected into the 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-hostaliases.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/hostAliases#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/hostAliases")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-hostaliases.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/hostAliases#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/hostAliases")
 
 ### hostAliases Type
 
@@ -115,7 +115,7 @@ NodeName is a request to schedule this pod onto a specific node. If it is non-em
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodename.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodename#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeName")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodename.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodename#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeName")
 
 ### nodeName Type
 
@@ -133,7 +133,7 @@ NodeSelector is a selector which must be true for the pod to fit on a node. Sele
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodeselector.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodeselector#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeSelector")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-nodeselector.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/nodeselector#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/nodeSelector")
 
 ### nodeSelector Type
 
@@ -151,7 +151,7 @@ The priority value. Various system components use this field to find the priorit
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priority.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priority#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priority")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priority.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priority#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priority")
 
 ### priority Type
 
@@ -173,7 +173,7 @@ If specified, indicates the pod's priority. "system-node-critical" and "system-c
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priorityclassname.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priorityclassname#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priorityClassName")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-priorityclassname.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/priorityclassname#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/priorityClassName")
 
 ### priorityClassName Type
 
@@ -191,7 +191,7 @@ Restart policy for all containers within the pod. One of Always, OnFailure, Neve
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-restartpolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/restartpolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/restartPolicy")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-restartpolicy.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/restartpolicy#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/restartPolicy")
 
 ### restartPolicy Type
 
@@ -209,7 +209,7 @@ If specified, the pod will be dispatched by specified scheduler. If not specifie
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-schedulername.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/schedulername#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/schedulerName")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-schedulername.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/schedulername#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/schedulerName")
 
 ### schedulerName Type
 
@@ -227,7 +227,7 @@ If specified, the pod will be dispatched by specified scheduler. If not specifie
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-tolerations.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/tolerations#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/tolerations")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-tolerations.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/tolerations#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/tolerations")
 
 ### tolerations Type
 
@@ -249,7 +249,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-volumes.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes")
 
 ### volumes Type
 

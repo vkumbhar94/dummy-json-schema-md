@@ -33,10 +33,10 @@ The default value is:
 
 # lm Properties
 
-| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                     |
-| :-------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [groupID](#groupid)                     | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-groupid-schema.md "#/properties/collector/properties/lm/properties/groupID#/properties/collector/properties/lm/properties/groupID")                               |
-| [escalationChainID](#escalationchainid) | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-escalationchainid-schema.md "#/properties/collector/properties/lm/properties/escalationChainID#/properties/collector/properties/lm/properties/escalationChainID") |
+| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                               |
+| :-------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [groupID](#groupid)                     | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-groupid-schema.md "#/properties/collector/properties/lm/properties/groupID#/properties/collector/properties/lm/properties/groupID")                               |
+| [escalationChainID](#escalationchainid) | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-escalationchainid-schema.md "#/properties/collector/properties/lm/properties/escalationChainID#/properties/collector/properties/lm/properties/escalationChainID") |
 
 ## groupID
 
@@ -50,7 +50,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-groupid-schema.md "#/properties/collector/properties/lm/properties/groupID#/properties/collector/properties/lm/properties/groupID")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-groupid-schema.md "#/properties/collector/properties/lm/properties/groupID#/properties/collector/properties/lm/properties/groupID")
 
 ### groupID Type
 
@@ -82,7 +82,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-escalationchainid-schema.md "#/properties/collector/properties/lm/properties/escalationChainID#/properties/collector/properties/lm/properties/escalationChainID")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-lm-schema-properties-the-escalationchainid-schema.md "#/properties/collector/properties/lm/properties/escalationChainID#/properties/collector/properties/lm/properties/escalationChainID")
 
 ### escalationChainID Type
 

@@ -4,11 +4,11 @@
 #/properties/debug#/properties/debug
 ```
 
-Application debug configurations
+The Application debugging configurations
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## debug Type
 
@@ -34,9 +34,9 @@ The default value is:
 
 # debug Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                            |
-| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [profiling](#profiling) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [profiling](#profiling) | `object` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling") |
 
 ## profiling
 
@@ -50,7 +50,7 @@ Profile generation configurations
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema-properties-the-profiling-schema.md "#/properties/debug/properties/profiling#/properties/debug/properties/profiling")
 
 ### profiling Type
 

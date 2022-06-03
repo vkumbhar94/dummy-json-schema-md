@@ -4,11 +4,11 @@
 #/properties/log#/properties/log
 ```
 
-Log Configurations
+The Argus Log Configurations Schema
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## log Type
 
@@ -32,27 +32,27 @@ The default value is:
 
 # log Properties
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                       |
-| :-------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [level](#level) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                       |
+| :-------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [level](#level) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-log-properties-the-log-level-for-argus-schema.md "#/properties/log/properties/level#/properties/log/properties/level") |
 
 ## level
 
-Log Level
+The Log Level for Argus
 
 `level`
 
 *   is optional
 
-*   Type: `string` ([log.level](values-properties-log-properties-loglevel.md))
+*   Type: `string` ([The Log Level for Argus Schema](values-properties-log-properties-the-log-level-for-argus-schema.md))
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-log-properties-loglevel.md "#/properties/log/properties/level#/properties/log/properties/level")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-log-properties-the-log-level-for-argus-schema.md "#/properties/log/properties/level#/properties/log/properties/level")
 
 ### level Type
 
-`string` ([log.level](values-properties-log-properties-loglevel.md))
+`string` ([The Log Level for Argus Schema](values-properties-log-properties-the-log-level-for-argus-schema.md))
 
 ### level Constraints
 

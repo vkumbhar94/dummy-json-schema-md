@@ -1,7 +1,7 @@
-# Untitled undefined type in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled undefined type in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity
+http://example.com/example.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity
 ```
 
 
@@ -16,6 +16,6 @@ merged type ([Details](values-definitions-iok8sapimachinerypkgapiresourcequantit
 
 one (and only one) of
 
-*   [Untitled string in Logicmonitor Argus Helm Chart Values Schema](values-definitions-iok8sapimachinerypkgapiresourcequantity-oneof-0.md "check type definition")
+*   [Untitled string in Argus Helm Chart Configuration Schema](values-definitions-iok8sapimachinerypkgapiresourcequantity-oneof-0.md "check type definition")
 
-*   [Untitled number in Logicmonitor Argus Helm Chart Values Schema](values-definitions-iok8sapimachinerypkgapiresourcequantity-oneof-1.md "check type definition")
+*   [Untitled number in Argus Helm Chart Configuration Schema](values-definitions-iok8sapimachinerypkgapiresourcequantity-oneof-1.md "check type definition")

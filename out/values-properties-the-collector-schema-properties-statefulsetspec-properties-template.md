@@ -1,4 +1,4 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template#/properties/collector/properties/statefulsetSpec/properties/template
@@ -16,9 +16,9 @@
 
 # template Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                           |
-| :------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [spec](#spec) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                     |
+| :------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [spec](#spec) | `object` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec") |
 
 ## spec
 
@@ -32,7 +32,7 @@
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec")
 
 ### spec Type
 

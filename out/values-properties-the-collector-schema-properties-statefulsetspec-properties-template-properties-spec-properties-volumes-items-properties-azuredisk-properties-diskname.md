@@ -1,4 +1,4 @@
-# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled string in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/azuredisk/properties/diskname#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/azureDisk/properties/diskName

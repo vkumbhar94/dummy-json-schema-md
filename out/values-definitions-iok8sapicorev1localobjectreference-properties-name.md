@@ -1,7 +1,7 @@
-# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled string in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name
+http://example.com/example.json#/definitions/io.k8s.api.core.v1.LocalObjectReference/properties/name
 ```
 
 Name of the referent. More info: <https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names>

@@ -8,7 +8,7 @@ Configurations to expose self monitor metrics in Openmetrics format
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## selfMonitor Type
 
@@ -33,10 +33,10 @@ The default value is:
 
 # selfMonitor Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                     |
-| :---------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [enable](#enable) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema-properties-the-enable-schema.md "#/properties/selfMonitor/properties/enable#/properties/selfMonitor/properties/enable") |
-| [port](#port)     | `integer` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema-properties-the-port-schema.md "#/properties/selfMonitor/properties/port#/properties/selfMonitor/properties/port")       |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                               |
+| :---------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [enable](#enable) | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema-properties-the-enable-schema.md "#/properties/selfMonitor/properties/enable#/properties/selfMonitor/properties/enable") |
+| [port](#port)     | `integer` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema-properties-the-port-schema.md "#/properties/selfMonitor/properties/port#/properties/selfMonitor/properties/port")       |
 
 ## enable
 
@@ -50,7 +50,7 @@ Setting this to true starts exposing self monitor metrics
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema-properties-the-enable-schema.md "#/properties/selfMonitor/properties/enable#/properties/selfMonitor/properties/enable")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema-properties-the-enable-schema.md "#/properties/selfMonitor/properties/enable#/properties/selfMonitor/properties/enable")
 
 ### enable Type
 
@@ -74,7 +74,7 @@ port number to expose self monitor "/metrics" endpoint
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-selfmonitor-schema-properties-the-port-schema.md "#/properties/selfMonitor/properties/port#/properties/selfMonitor/properties/port")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-selfmonitor-schema-properties-the-port-schema.md "#/properties/selfMonitor/properties/port#/properties/selfMonitor/properties/port")
 
 ### port Type
 

@@ -4,7 +4,8 @@
 #/properties/clusterTreeParentID#/properties/clusterTreeParentID
 ```
 
-clusterTreeParentID is a parent group ID underneath the organised kubernetes resource tree gets created
+clusterTreeParentID is a parent static resource group ID underneath the organised kubernetes resource tree gets created.
+A static resource group with the mentioned ID should exit beforehand.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |

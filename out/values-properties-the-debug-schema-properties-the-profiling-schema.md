@@ -32,9 +32,9 @@ The default value is:
 
 # profiling Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                             |
-| :---------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [enable](#enable) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema-properties-the-enable-schema.md "#/properties/debug/properties/profiling/properties/enable#/properties/debug/properties/profiling/properties/enable") |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                       |
+| :---------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [enable](#enable) | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema-properties-the-profiling-schema-properties-the-enable-schema.md "#/properties/debug/properties/profiling/properties/enable#/properties/debug/properties/profiling/properties/enable") |
 
 ## enable
 
@@ -48,7 +48,7 @@ Setting this to true start application profile generations
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-debug-schema-properties-the-profiling-schema-properties-the-enable-schema.md "#/properties/debug/properties/profiling/properties/enable#/properties/debug/properties/profiling/properties/enable")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-debug-schema-properties-the-profiling-schema-properties-the-enable-schema.md "#/properties/debug/properties/profiling/properties/enable#/properties/debug/properties/profiling/properties/enable")
 
 ### enable Type
 

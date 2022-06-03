@@ -1,4 +1,4 @@
-# Untitled array in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled array in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/volumes/items/properties/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/volumes/items/properties/configMap/properties/items

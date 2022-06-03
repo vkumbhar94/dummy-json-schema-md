@@ -5,7 +5,7 @@
 ```
 
 A unique name given to the cluster's resource group.
-NOTE: do not change name once application deployed in cluster, breaks correlation at multiple places
+NOTE: do not change name once application deployed in cluster. If changed, breaks correlation at multiple places
 example: Organised Resource group name of kubernetes resource tree generated as "Kubernetes Cluster: <clusterName>"
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |

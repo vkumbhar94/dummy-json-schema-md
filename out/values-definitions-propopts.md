@@ -1,7 +1,7 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propoptsarray/items
+http://example.com/example.json#/definitions/propoptsarray/items
 ```
 
 
@@ -16,11 +16,11 @@ http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propop
 
 # items Properties
 
-| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
-| :-------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)         | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/name")         |
-| [value](#value)       | `string`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/value")       |
-| [override](#override) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-override.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/override") |
+| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                              |
+| :-------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)         | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-name.md "http://example.com/example.json#/definitions/propopts/properties/name")         |
+| [value](#value)       | `string`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-value.md "http://example.com/example.json#/definitions/propopts/properties/value")       |
+| [override](#override) | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-override.md "http://example.com/example.json#/definitions/propopts/properties/override") |
 
 ## name
 
@@ -34,7 +34,7 @@ http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propop
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-name.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/name")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-name.md "http://example.com/example.json#/definitions/propopts/properties/name")
 
 ### name Type
 
@@ -56,7 +56,7 @@ http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propop
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-value.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/value")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-value.md "http://example.com/example.json#/definitions/propopts/properties/value")
 
 ### value Type
 
@@ -78,7 +78,7 @@ http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propop
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-definitions-propopts-properties-override.md "http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/override")
+*   defined in: [Argus Helm Chart Configuration Schema](values-definitions-propopts-properties-override.md "http://example.com/example.json#/definitions/propopts/properties/override")
 
 ### override Type
 

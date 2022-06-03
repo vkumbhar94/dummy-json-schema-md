@@ -1,4 +1,4 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items
@@ -16,10 +16,10 @@ A single application container that you want to run within a pod.
 
 # items Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| :---------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)           | `string` | Required | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/name")           |
-| [resources](#resources) | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-resources.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/resources") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| :---------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)           | `string` | Required | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/name")           |
+| [resources](#resources) | `object` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-resources.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/resources") |
 
 ## name
 
@@ -33,7 +33,7 @@ A single application container that you want to run within a pod.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/name")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-name.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/name")
 
 ### name Type
 
@@ -55,7 +55,7 @@ Compute Resources required by this container. Cannot be updated. More info: <htt
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-resources.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/resources")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-containers-items-properties-resources.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/items#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/containers/items/properties/resources")
 
 ### resources Type
 

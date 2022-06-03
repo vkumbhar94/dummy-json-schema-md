@@ -4,7 +4,7 @@
 #/properties/replicas#/properties/replicas
 ```
 
-Replicas - defaults to 1, param is just for development purpose, do not increase more than one replicas in production
+Argus Pod Replicas - defaults to 1, param is just for development purpose, do not increase more than one replicas in production
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |

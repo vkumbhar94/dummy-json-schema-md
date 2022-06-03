@@ -1,7 +1,7 @@
-# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled string in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration/oneOf/0/properties/key
+http://example.com/example.json#/definitions/toleration/oneOf/0/properties/key
 ```
 
 Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.

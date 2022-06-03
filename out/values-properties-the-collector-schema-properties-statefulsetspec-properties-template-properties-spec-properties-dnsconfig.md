@@ -1,4 +1,4 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/dnsConfig#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig
@@ -16,11 +16,11 @@ PodDNSConfig defines the DNS parameters of a pod in addition to those generated 
 
 # dnsConfig Properties
 
-| Property                    | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :-------------------------- | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [nameservers](#nameservers) | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-nameservers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/nameservers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/nameservers") |
-| [options](#options)         | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options")             |
-| [searches](#searches)       | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-searches.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/searches#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/searches")          |
+| Property                    | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| :-------------------------- | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [nameservers](#nameservers) | `array` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-nameservers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/nameservers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/nameservers") |
+| [options](#options)         | `array` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options")             |
+| [searches](#searches)       | `array` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-searches.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/searches#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/searches")          |
 
 ## nameservers
 
@@ -34,7 +34,7 @@ A list of DNS name server IP addresses. This will be appended to the base namese
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-nameservers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/nameservers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/nameservers")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-nameservers.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/nameservers#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/nameservers")
 
 ### nameservers Type
 
@@ -52,7 +52,7 @@ A list of DNS resolver options. This will be merged with the base options genera
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-options.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/options#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/options")
 
 ### options Type
 
@@ -70,7 +70,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-searches.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/searches#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/searches")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-statefulsetspec-properties-template-properties-spec-properties-dnsconfig-properties-searches.md "#/properties/collector/properties/statefulsetspec/properties/template/properties/spec/properties/containers/properties/searches#/properties/collector/properties/statefulsetSpec/properties/template/properties/spec/properties/dnsConfig/properties/searches")
 
 ### searches Type
 

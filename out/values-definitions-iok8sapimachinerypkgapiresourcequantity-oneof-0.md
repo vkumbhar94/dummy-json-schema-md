@@ -1,7 +1,7 @@
-# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled string in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity/oneOf/0
+http://example.com/example.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity/oneOf/0
 ```
 
 

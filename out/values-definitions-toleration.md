@@ -1,7 +1,7 @@
-# Untitled undefined type in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled undefined type in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/toleration
+http://example.com/example.json#/definitions/toleration
 ```
 
 
@@ -16,6 +16,6 @@ merged type ([Details](values-definitions-toleration.md))
 
 one (and only one) of
 
-*   [Untitled object in Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-0.md "check type definition")
+*   [Untitled object in Argus Helm Chart Configuration Schema](values-definitions-toleration-oneof-0.md "check type definition")
 
-*   [Untitled object in Logicmonitor Argus Helm Chart Values Schema](values-definitions-toleration-oneof-1.md "check type definition")
+*   [Untitled object in Argus Helm Chart Configuration Schema](values-definitions-toleration-oneof-1.md "check type definition")

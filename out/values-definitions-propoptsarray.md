@@ -1,7 +1,7 @@
-# Untitled array in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled array in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propoptsarray
+http://example.com/example.json#/definitions/propoptsarray
 ```
 
 

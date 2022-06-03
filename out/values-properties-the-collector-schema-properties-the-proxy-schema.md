@@ -8,7 +8,7 @@ An explanation about the purpose of this instance.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## proxy Type
 
@@ -34,11 +34,11 @@ The default value is:
 
 # proxy Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                       |
-| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [url](#url)   | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")    |
-| [user](#user) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user") |
-| [pass](#pass) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                 |
+| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [url](#url)   | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")    |
+| [user](#user) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user") |
+| [pass](#pass) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass") |
 
 ## url
 
@@ -52,7 +52,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-url-schema.md "#/properties/collector/properties/proxy/properties/url#/properties/collector/properties/proxy/properties/url")
 
 ### url Type
 
@@ -76,7 +76,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-user-schema.md "#/properties/collector/properties/proxy/properties/user#/properties/collector/properties/proxy/properties/user")
 
 ### user Type
 
@@ -100,7 +100,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-collector-schema-properties-the-proxy-schema-properties-the-pass-schema.md "#/properties/collector/properties/proxy/properties/pass#/properties/collector/properties/proxy/properties/pass")
 
 ### pass Type
 

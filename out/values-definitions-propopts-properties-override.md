@@ -1,7 +1,7 @@
-# Untitled boolean in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled boolean in Argus Helm Chart Configuration Schema Schema
 
 ```txt
-http://logicmonitor.com/helm-charts/argus/values.schema.json#/definitions/propopts/properties/override
+http://example.com/example.json#/definitions/propopts/properties/override
 ```
 
 

@@ -1,4 +1,4 @@
-# Untitled object in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled object in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/global#/properties/global
@@ -16,13 +16,13 @@
 
 # global Properties
 
-| Property                                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                            |
-| :-------------------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [imagePullSecrets](#imagepullsecrets)                           | `array`  | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-imagepullsecrets.md "#/properties/global#/properties/global/properties/imagePullSecrets")                           |
-| [image](#image)                                                 | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema.md "#/properties/global/properties/image#/properties/global/properties/image")                     |
-| [proxy](#proxy)                                                 | `object` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-proxy.md "#/properties/proxy#/properties/global/properties/proxy")                                                  |
-| [collectorsetServiceNameSuffix](#collectorsetservicenamesuffix) | `string` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-collectorsetservicenamesuffix.md "#/properties/global#/properties/global/properties/collectorsetServiceNameSuffix") |
-| Additional Properties                                           | Any      | Optional | can be null    |                                                                                                                                                                                                       |
+| Property                                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :-------------------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [imagePullSecrets](#imagepullsecrets)                           | `array`  | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-global-properties-imagepullsecrets.md "#/properties/global#/properties/global/properties/imagePullSecrets")                           |
+| [image](#image)                                                 | `object` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-global-properties-the-image-schema.md "#/properties/global/properties/image#/properties/global/properties/image")                     |
+| [proxy](#proxy)                                                 | `object` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-global-properties-proxy.md "#/properties/proxy#/properties/global/properties/proxy")                                                  |
+| [collectorsetServiceNameSuffix](#collectorsetservicenamesuffix) | `string` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-global-properties-collectorsetservicenamesuffix.md "#/properties/global#/properties/global/properties/collectorsetServiceNameSuffix") |
+| Additional Properties                                           | Any      | Optional | can be null    |                                                                                                                                                                                                 |
 
 ## imagePullSecrets
 
@@ -36,7 +36,7 @@ ImagePullSecrets is an optional list of references to secrets in the same namesp
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-imagepullsecrets.md "#/properties/global#/properties/global/properties/imagePullSecrets")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-global-properties-imagepullsecrets.md "#/properties/global#/properties/global/properties/imagePullSecrets")
 
 ### imagePullSecrets Type
 
@@ -64,7 +64,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-the-image-schema.md "#/properties/global/properties/image#/properties/global/properties/image")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-global-properties-the-image-schema.md "#/properties/global/properties/image#/properties/global/properties/image")
 
 ### image Type
 
@@ -98,7 +98,7 @@ Http/s proxy
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-proxy.md "#/properties/proxy#/properties/global/properties/proxy")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-global-properties-proxy.md "#/properties/proxy#/properties/global/properties/proxy")
 
 ### proxy Type
 
@@ -135,7 +135,7 @@ Keep it empty while installing this chart individually, umbrella chart uses this
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-global-properties-collectorsetservicenamesuffix.md "#/properties/global#/properties/global/properties/collectorsetServiceNameSuffix")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-global-properties-collectorsetservicenamesuffix.md "#/properties/global#/properties/global/properties/collectorsetServiceNameSuffix")
 
 ### collectorsetServiceNameSuffix Type
 

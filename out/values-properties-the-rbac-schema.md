@@ -8,7 +8,7 @@ An explanation about the purpose of this instance.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## rbac Type
 
@@ -32,9 +32,9 @@ The default value is:
 
 # rbac Properties
 
-| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                |
-| :---------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [create](#create) | `boolean` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create") |
+| Property          | Type      | Required | Nullable       | Defined by                                                                                                                                                                          |
+| :---------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [create](#create) | `boolean` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create") |
 
 ## create
 
@@ -48,7 +48,7 @@ An explanation about the purpose of this instance.
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-rbac-schema-properties-the-create-schema.md "#/properties/rbac/properties/create#/properties/rbac/properties/create")
 
 ### create Type
 

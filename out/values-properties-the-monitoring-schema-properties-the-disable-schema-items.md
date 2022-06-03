@@ -1,4 +1,4 @@
-# Untitled string in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled string in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/monitoring/properties/disable/items#/properties/monitoring/properties/disable/items

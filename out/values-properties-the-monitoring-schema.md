@@ -4,11 +4,11 @@
 #/properties/monitoring#/properties/monitoring
 ```
 
-Monitoring settings
+The Monitoring settings
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [values.schema.json\*](values.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [values.schema.json\*](values.schema.json "open original schema") |
 
 ## monitoring Type
 
@@ -32,9 +32,9 @@ The default value is:
 
 # monitoring Properties
 
-| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                     |
-| :------------------ | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [disable](#disable) | `array` | Optional | cannot be null | [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable") |
+| Property            | Type    | Required | Nullable       | Defined by                                                                                                                                                                                               |
+| :------------------ | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [disable](#disable) | `array` | Optional | cannot be null | [Argus Helm Chart Configuration Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable") |
 
 ## disable
 
@@ -48,7 +48,7 @@ Set of resource names to disable monitoring for
 
 *   cannot be null
 
-*   defined in: [Logicmonitor Argus Helm Chart Values Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable")
+*   defined in: [Argus Helm Chart Configuration Schema](values-properties-the-monitoring-schema-properties-the-disable-schema.md "#/properties/monitoring/properties/disable#/properties/monitoring/properties/disable")
 
 ### disable Type
 

@@ -6,7 +6,7 @@
 
 The LogicMonitor account name.
 Value should be trimmed from URL \_\_\_.logicmonitor.com
-example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid here
+example: say, lmqauat.logicmonitor.com then "lmqauat" should be valid value
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |

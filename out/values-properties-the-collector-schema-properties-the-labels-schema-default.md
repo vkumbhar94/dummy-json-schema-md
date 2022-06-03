@@ -1,4 +1,4 @@
-# Untitled undefined type in Logicmonitor Argus Helm Chart Values Schema Schema
+# Untitled undefined type in Argus Helm Chart Configuration Schema Schema
 
 ```txt
 #/properties/collector/properties/labels#/properties/collector/properties/labels/default
